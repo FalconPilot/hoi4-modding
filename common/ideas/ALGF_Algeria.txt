@@ -1,0 +1,9 @@
+ideas = {
+  country = {
+    ALG_national_railway_company = {
+      modifier = {
+        production_speed_buildings_factor = 0.1
+      }
+    }
+  }
+}

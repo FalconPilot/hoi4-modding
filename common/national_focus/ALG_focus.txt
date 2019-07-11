@@ -19,7 +19,6 @@ focus_tree = {
     cost = 5
     x = 5
     y = 0
-    ai_will_do = { factor = 1 }
     available_if_capitulated = yes
     completion_reward = {
       add_political_power = 150
@@ -45,7 +44,6 @@ focus_tree = {
     x = 6
     y = 2
     prerequisite = { focus = ALG_reinforce_national_unity }
-    ai_will_do = { factor = 0.8 }
     completion_reward = {
       add_political_power = 50
       add_popularity = {
@@ -62,13 +60,23 @@ focus_tree = {
     cost = 5
     x = 15
     y = 0
-    ai_will_do = { factor = 0.8 }
     completion_reward = {
       add_tech_bonus = {
         bonus = 1.0
         uses = 1
         category = industry
       }
+    }
+  }
+
+  focus = {
+    id = ALG_form_the_national_railway_company
+    icon = GFX_goal_generic_construct_infrastructure
+    cost = 10
+    x = 16
+    y = 1
+    completion_reward = {
+      add_ideas = ALG_national_railway_company
     }
   }
 
