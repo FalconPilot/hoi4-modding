@@ -9,7 +9,7 @@ focus_tree = {
   }
   default = no
 
-  ### Starting focus ###
+  ### National Focuses ###
   focus = {
     id = ALG_national_reforms
     icon = GFX_focus_eng_concessions_to_the_trade_unions
@@ -20,6 +20,23 @@ focus_tree = {
     available_if_capitulated = yes
     completion_reward = {
       add_political_power = 150
+    }
+  }
+
+  focus = {
+    id = ALG_empower_federal_government
+    icon = GFX_goal_generic_support_democracy
+    cost = 10
+    x = 6
+    y = 1
+    prerequisite = { focus = ALG_national_reforms }
+    ai_will_do = { factor = 0.8 }
+    completion_reward = {
+      add_political_power = 50
+      add_popularity = {
+        ideology = democratic
+        popularity = 0.10
+      }
     }
   }
 }
