@@ -1,0 +1,9 @@
+spriteTypes = {
+
+  ### Egyptian Weapons ###
+
+  spriteType = {
+    name = "GFX_EGY_infantry_weapons_medium",
+    texturefile = "gfx/interface/technologies/alib1.dds"
+  }
+}
