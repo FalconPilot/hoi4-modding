@@ -1,0 +1,25 @@
+state = {
+  id = 459
+  name = "STATE_459"
+  manpower = 6089944
+  state_category = city
+  provinces = { 4116 7132 11923 1013 12760 9964 4146 1145 11939 4131 }
+  resources = {
+    steel = 40
+  }
+  history = {
+    owner = ALG
+    add_core_of = ALG
+    victory_points = { 1145 8 }
+    victory_points = { 7132 5 }
+    buildings = {
+      infrastructure = 5
+      1145 = {
+        naval_base = 5
+      }
+      7132 = {
+        naval_base = 3
+      }
+    }
+  }
+}
