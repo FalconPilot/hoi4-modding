@@ -10,6 +10,9 @@ focus_tree = {
   default = no
 
   ### National Focuses ###
+
+  ###### Political focuses ######
+
   focus = {
     id = ALG_national_reforms
     icon = GFX_focus_eng_concessions_to_the_trade_unions
@@ -51,4 +54,22 @@ focus_tree = {
       }
     }
   }
+
+  ###### Industrial focuses ######
+  focus = {
+    id = ALG_finance_industrial_research
+    icon = GFX_focus_generic_industry_1
+    cost = 5
+    x = 15
+    y = 0
+    ai_will_do = { factor = 0.8 }
+    completion_reward = {
+      add_tech_bonus = {
+        bonus = 1.0
+        uses = 1
+        category = industry
+      }
+    }
+  }
+
 }
