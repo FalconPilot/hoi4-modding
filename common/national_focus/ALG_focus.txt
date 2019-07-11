@@ -24,12 +24,24 @@ focus_tree = {
   }
 
   focus = {
-    id = ALG_empower_federal_government
-    icon = GFX_goal_generic_support_democracy
+    id = ALG_reinforce_national_unity
+    icon = GFX_goal_generic_national_unity
     cost = 10
     x = 6
-    y = 1
+    y = 0
     prerequisite = { focus = ALG_national_reforms }
+    completion_reward = {
+      add_stability = 0.1
+    }
+  }
+
+  focus = {
+    id = ALG_empower_federal_government
+    icon = GFX_goal_generic_improve_relations
+    cost = 10
+    x = 6
+    y = 2
+    prerequisite = { focus = ALG_reinforce_national_unity }
     ai_will_do = { factor = 0.8 }
     completion_reward = {
       add_political_power = 50

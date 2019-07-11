@@ -1,5 +1,7 @@
 ﻿l_english:
-  ALG_national_reforms: "National Reforms"
+  ALG_national_reforms: "National reforms"
   ALG_national_reforms_desc: "After the independence war, a series of extensive reforms are needed before the country can go anywhere. We must think and act fast !"
+  ALG_reinforce_national_unity: "Reinforce national unity"
+  ALG_reinforce_national_unity_desc: "With the independance war over and reforms on their way, we need to reassure the population and bring people back together. United, we stand, divided, we fall."
   ALG_empower_federal_government: "Empower the Federal government"
-  ALG_empower_federal_government_desc: "For too long has the federal government been just an ideal. The recent reforms showed us that we need a free, united country under a federal rule !"
+  ALG_empower_federal_government_desc: "For too long has the federal government been just an ideal. Time showed us the flaws of monarchy and we concluded that we need a free, united country under a stable federal rule."
