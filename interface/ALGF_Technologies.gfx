@@ -2,13 +2,13 @@ spriteTypes = {
 
   ### Algerian Weapons ###
 
-  spriteType = {
+  SpriteType = {
     name = "GFX_ALG_infantry_weapons_medium"
     texturefile = "gfx/interface/technologies/alib1.dds"
   }
 
-  spriteType = {
-    name = "GFX_ALG_infantry_weapons_medium"
+  SpriteType = {
+    name = "GFX_ALG_infantry_weapons1_medium"
     texturefile = "gfx/interface/technologies/f1fatma.dds"
   }
 }
