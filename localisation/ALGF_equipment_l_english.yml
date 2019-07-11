@@ -1,9 +1,10 @@
 ﻿l_english:
   ALG_infantry_equipment_0: "Ali B1"
   ALG_infantry_equipment_0_short: "Ali B1"
-  ALG_infantry_equipment_0_desc: "The Ali B1 was a rifle developed in French Algeria before the Great War. Rugged and simple, it was massively fielded and met a great success when used by Algerian volunteers."
+  ALG_infantry_equipment_0_desc: "The Ali B1 was a rifle developed in French Algeria before the Great War. Rugged and simple, it was massively fielded and met a great success during the war of independence."
   ALG_infantry_equipment_1: "F1 Fatma"
   ALG_infantry_equipment_1_short: "F1 Fatma"
+  ALG_infantry_equipment_1_desc: "Algeria needed a replacement for the reliable but aging Ali B1. The semi-automatic F1 Fatma was created to modernize infantry divisions and was to become a standard rifle for land units."
   ALG_infantry_equipment_2: "Qua 8.5mm"
   ALG_infantry_equipment_2_short: "Qua 8.5mm"
   ALG_infantry_equipment_3: "AKN42"
