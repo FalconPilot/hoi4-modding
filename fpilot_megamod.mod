@@ -1,4 +1,4 @@
-name = "Fpilot's Megamod"
+﻿name = "Fpilot's Megamod"
 path = "mod/FpilotMegaMod"
 tags = {
   "Graphics"
