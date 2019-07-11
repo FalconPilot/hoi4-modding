@@ -56,7 +56,7 @@ instant_effect = {
     }
     requested_factories = 1
     progress = 0.5
-    efficiency = 50
+    efficiency = 100
   }
 
   add_equipment_production = {
@@ -66,7 +66,7 @@ instant_effect = {
     }
     requested_factories = 1
     progress = 0.5
-    efficiency = 50
+    efficiency = 100
   }
 
   add_equipment_production = {
@@ -76,6 +76,16 @@ instant_effect = {
     }
     requested_factories = 1
     progress = 0.8
-    efficiency = 50
+    efficiency = 100
+  }
+
+  add_equipment_production = {
+    equipment = {
+      type = convoy_1
+      creator = ALG
+    }
+    requested_factories = 2
+    progress = 0.55
+    efficiency = 100
   }
 }
