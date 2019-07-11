@@ -1,5 +1,5 @@
 ﻿##### Division Templates #####
-divison_template = {
+division_template = {
   name = "Federal Infantry Division"
   regiments = {
     infantry = { x = 0 y = 0 }
