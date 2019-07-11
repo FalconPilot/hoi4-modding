@@ -56,17 +56,17 @@ instant_effect = {
     }
     requested_factories = 1
     progress = 0.5
-    efficiency = 100
+    efficiency = 50
   }
 
   add_equipment_production = {
     equipment = {
       type = support_equipment_1
-      creator = ALG
+      creator = "ALG"
     }
     requested_factories = 1
     progress = 0.5
-    efficiency = 100
+    efficiency = 50
   }
 
   add_equipment_production = {
@@ -76,7 +76,17 @@ instant_effect = {
     }
     requested_factories = 1
     progress = 0.8
-    efficiency = 100
+    efficiency = 50
+  }
+
+  add_equipment_production = {
+    equipment = {
+      type = anti_air_equipment_1
+      creator = "ALG"
+    }
+    requested_factories = 1
+    progress = 0.2
+    efficiency = 40
   }
 
   add_equipment_production = {
