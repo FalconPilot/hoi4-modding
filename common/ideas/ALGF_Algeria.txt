@@ -1,8 +1,34 @@
 ideas = {
   country = {
     ALG_national_railway_company = {
+      picture = idea_generic_build_infrastructure
+      allowed = {
+        always = no
+      }
+      allowed_civil_war = {
+        OR = {
+          has_government = democratic
+        }
+      }
+      removal_cost = -1
       modifier = {
         production_speed_buildings_factor = 0.1
+      }
+    }
+  }
+
+  ### Technology ###
+
+  materiel_manufacturer = {
+    designer = yes
+    ALG_afa = {
+      picture = idea_generic_infantry_equipment_manufacturer_3
+      allowed = {
+        original_tag = ALG
+      }
+      research_bonus = {
+        infantry_weapons = 0.05
+        artillery = 0.05
       }
     }
   }

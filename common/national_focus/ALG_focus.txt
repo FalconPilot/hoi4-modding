@@ -29,8 +29,8 @@ focus_tree = {
     id = ALG_reinforce_national_unity
     icon = GFX_goal_generic_national_unity
     cost = 10
-    x = 6
-    y = 0
+    x = 5
+    y = 1
     prerequisite = { focus = ALG_national_reforms }
     completion_reward = {
       add_stability = 0.1
@@ -58,7 +58,7 @@ focus_tree = {
     id = ALG_finance_industrial_research
     icon = GFX_focus_generic_industry_1
     cost = 5
-    x = 15
+    x = 10
     y = 0
     completion_reward = {
       add_tech_bonus = {
@@ -73,8 +73,9 @@ focus_tree = {
     id = ALG_form_the_national_railway_company
     icon = GFX_goal_generic_construct_infrastructure
     cost = 10
-    x = 16
+    x = 11
     y = 1
+    prerequisite = { focus = ALG_finance_industrial_research }
     completion_reward = {
       add_ideas = ALG_national_railway_company
     }
