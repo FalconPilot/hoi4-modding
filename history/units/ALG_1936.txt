@@ -1,4 +1,4 @@
-divison_template = {
+﻿divison_template = {
   name = "Federal Infantry Division"
   division_names_group = ALG_INF_01
   regiments = {
