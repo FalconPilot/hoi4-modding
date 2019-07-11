@@ -1,0 +1,25 @@
+focus_tree = {
+  id = algeria
+  country = {
+    factor = 0
+    modifier = {
+      add = 10
+      tag = ALG
+    }
+  }
+  default = no
+
+  ### Starting focus ###
+  focus = {
+    id = ALG_national_reforms
+    icon = GFX_focus_eng_concessions_to_the_trade_unions
+    cost = 5
+    x = 5
+    y = 0
+    ai_will_do = { factor = 1 }
+    available_if_capitulated = yes
+    completion_reward = {
+      add_political_power = 150
+    }
+  }
+}
