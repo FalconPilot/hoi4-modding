@@ -2,7 +2,7 @@ state = {
   id = 459
   name = "STATE_459"
   manpower = 6089944
-  state_category = city
+  state_category = large_city
   provinces = { 4116 7132 11923 1013 12760 9964 4146 1145 11939 4131 }
   resources = {
     steel = 40
@@ -10,15 +10,22 @@ state = {
   history = {
     owner = ALG
     add_core_of = ALG
-    victory_points = { 1145 8 }
+    victory_points = { 1145 12 }
     victory_points = { 7132 5 }
     buildings = {
-      infrastructure = 5
+      infrastructure = 6
+      arms_factory = 1
+      industrial_complex = 4
+      dockyard = 2
+      air_base = 2
+      anti_air_building = 1
       1145 = {
         naval_base = 5
+        coastal_bunker = 2
       }
       7132 = {
         naval_base = 3
+        coastal_bunker = 2
       }
     }
   }
