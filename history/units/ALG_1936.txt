@@ -8,15 +8,14 @@ division_template = {
     infantry = { x = 3 y = 0 }
     infantry = { x = 4 y = 0 }
     infantry = { x = 0 y = 1 }
-    infantry = { x = 1 y = 1 }
+    artillery = { x = 1 y = 1 }
     infantry = { x = 2 y = 1 }
-    infantry = { x = 3 y = 1 }
+    antiair = { x = 3 y = 1 }
     infantry = { x = 4 y = 1 }
   }
   support = {
     engineer = { x = 0 y = 0 }
     recon = { x = 0 y = 1 }
-    artillery = { x = 0 y = 2 }
   }
 }
 
