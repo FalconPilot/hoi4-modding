@@ -1,7 +1,6 @@
 ﻿##### Division Templates #####
 division_template = {
   name = "Federal Infantry Division"
-  priority = 0
   regiments = {
     infantry = { x = 0 y = 0 }
     infantry = { x = 1 y = 0 }
@@ -9,9 +8,9 @@ division_template = {
     infantry = { x = 3 y = 0 }
     infantry = { x = 4 y = 0 }
     infantry = { x = 0 y = 1 }
-    artillery = { x = 1 y = 1 }
+    artillery_brigade = { x = 1 y = 1 }
     infantry = { x = 2 y = 1 }
-    antiair = { x = 3 y = 1 }
+    anti_tank_brigade = { x = 3 y = 1 }
     infantry = { x = 4 y = 1 }
   }
   support = {
@@ -22,6 +21,7 @@ division_template = {
 
 division_template = {
   name = "Federal Police"
+  priority = 0
   regiments = {
     cavalry = { x = 0 y = 0 }
     cavalry = { x = 1 y = 0 }
