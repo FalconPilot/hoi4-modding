@@ -111,6 +111,18 @@ ideas = {
       }
     }
 
+    ALG_berbers_legacy = {
+      picture = idea_ast_volunteer_defence_corps
+      allowed = {
+        original_tag = ALG
+      }
+      removal_cost = -1
+      modifier = {
+        cavalry_attack_factor = 0.15
+        cavalry_defence_factor = 0.15
+      }
+    }
+
     ALG_women_in_the_army_1 = {
       picture = idea_mex_politicised_army_2
       allowed = {
@@ -124,17 +136,17 @@ ideas = {
     }
 
     ALG_communist_militias = {
-    picture = idea_generic_communist_army
-    allowed = {
-      original_tag = ALG
+      picture = idea_generic_communist_army
+      allowed = {
+        original_tag = ALG
+      }
+      removal_cost = -1
+      modifier = {
+        conscription = 0.005
+        communism_drift = 0.05
+        stability_factor = -0.15
+      }
     }
-    removal_cost = -1
-    modifier = {
-      conscription = 0.005
-      communism_drift = 0.05
-      stability_factor = -0.15
-    }
-  }
   }
 
   ### Political Staff ###

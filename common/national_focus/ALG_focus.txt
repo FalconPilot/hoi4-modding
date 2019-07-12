@@ -265,7 +265,10 @@ focus_tree = {
     cost = 10
     x = 11
     y = 3
-    prerequisite = { focus = ALG_the_saharan_project }
+    prerequisite = {
+      focus = ALG_the_saharan_project
+      focus = ALG_recruit_desert_tribes
+    }
     available = {
       514 = {
         is_owned_and_controlled_by = ALG
@@ -301,10 +304,91 @@ focus_tree = {
     x = 13
     y = 1
     prerequisite = { focus = ALG_professional_army }
+    available = {
+      514 = {
+        is_owned_and_controlled_by = ALG
+      }
+    }
     completion_reward = {
       add_manpower = 5000
       add_ideas = {
         ALG_desert_tribes
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_enlist_berber_officers
+    icon = GFX_focus_usa_honor_the_confederacy
+    cost = 5
+    x = 13
+    y = 2
+    prerequisite = { focus = ALG_recruit_desert_tribes }
+    available = {
+      514 = {
+        is_owned_and_controlled_by = ALG
+      }
+    }
+    completion_reward = {
+      ALG = {
+        create_corps_commander = {
+          name = "Mokhtar Sadoun"
+          picture = "portrait_arabia_generic_land_5.dds"
+          skill = 4
+          attack_skill = 4
+          defense_skill = 4
+          planning_skill = 2
+          logistics_skill = 3
+          traits = {}
+        }
+
+        create_corps_commander = {
+          name = "Karim Nakache"
+          picture = "Portrait_Arabia_Generic_land_1.dds"
+          skill = 3
+          attack_skill = 2
+          defense_skill = 3
+          planning_skill = 3
+          logistics_skill = 2
+          traits = {}
+        }
+
+        create_corps_commander = {
+          name = "Mouloud Hamidou"
+          picture = "Portrait_Africa_Generic_land_2.dds"
+          skill = 3
+          attack_skill = 2
+          defense_skill = 3
+          planning_skill = 2
+          logistics_skill = 3
+          traits = {}
+        }
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_tales_from_the_sahara
+    icon = GFX_goal_generic_army_doctrines
+    cost = 5
+    x = 13
+    y = 3
+    prerequisite = { focus = ALG_enlist_berber_officers }
+    completion_reward = {
+      army_experience = 25
+    }
+  }
+
+  focus = {
+    id = ALG_legacy_of_the_berbers
+    icon = GFX_goal_generic_cavalry
+    cost = 10
+    x = 13
+    y = 4
+    prerequisite = { ALG_tales_from_the_sahara }
+    completion_reward = {
+      add_ideas = {
+        ALG_berbers_legacy
       }
     }
   }
