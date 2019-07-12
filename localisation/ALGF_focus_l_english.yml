@@ -17,7 +17,9 @@
   ALG_womens_rights: "Women's rights"
   ALG_womens_rights_desc: "The interwar period has showed us that society cannot go back to its old ways. Many won't agree at first, but it is a necessary change for the country as a whole."
   ALG_tunisia_referendum: "The Tunisian referendum"
-  ALG_tunisia_referendum_desc: "In an effort to reunite North Africa under a democratic federal rule, we need to organize swiftly a referendum in the French colony of Tunisia. Surely, they will join us..."
+  ALG_tunisia_referendum_desc: "In an effort to reunite North Africa under a democratic federal rule, we need to organize swiftly a referendum in the french colony of Tunisia. Surely, they will join us..."
+  ALG_morocco_referendum: "The Moroccan referendum"
+  ALG_morocco_referendum_desc: "If we really want to prove the strength of democracy, we need to organize a referendum in the french colony of Morocco to integrate the state in our federal nation."
 
   ALG_oppose_the_royalty: "Oppose the royalty"
   ALG_oppose_the_royalty_desc: "Monarchy is a blight which hinders our progression to a fair society. We cannot just wait for reforms to pass, we must oppose the oppression of royalty, now or never !"
@@ -26,6 +28,8 @@
   ALG_finance_industrial_research_desc: "Some financial investiment in industrial research could represent a pretty nice benefit for the economy."
   ALG_form_the_national_railway_company: "Form the National Railway Company"
   ALG_form_the_national_railway_company_desc: "Creating a centralized railway company might improve our industrial complexes logistics."
+  ALG_mainland_industrial_development: "Mainland industrial development"
+  ALG_mainland_industrial_development_desc: "Before we take on tougher projects, we need to ensure the mainland has a sufficient level of production to let the country grow."
 
   ALG_professional_army: "Professionalize the army"
   ALG_professional_army_desc: "Since we disbanded the national militia, we need to officially make the army professional. This will be a long but necessary process."

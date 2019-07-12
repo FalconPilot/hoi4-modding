@@ -127,6 +127,21 @@ focus_tree = {
     }
   }
 
+  focus = {
+    id = ALG_morocco_referendum
+    icon = GFX_focus_generic_treaty
+    cost = 10
+    x = 5
+    y = 4
+    prerequisite = { focus = ALG_womens_rights }
+    completion_reward {
+      transfer_state = 461
+      transfer_state = 462
+      add_state_core = 461
+      add_state_core = 462
+    }
+  }
+
   ### Communism ###
   focus = {
     id = ALG_oppose_the_royalty
@@ -176,6 +191,40 @@ focus_tree = {
     prerequisite = { focus = ALG_finance_industrial_research }
     completion_reward = {
       add_ideas = ALG_national_railway_company
+    }
+  }
+
+  focus = {
+    id = ALG_mainland_industrial_development
+    icon = GFX_goal_generic_construct_civilian
+    cost = 10
+    x = 9
+    y = 1
+    prerequisite = {
+      focus = ALG_finance_industrial_research
+      459 = {
+        is_owned_and_controlled_by = ALG
+      }
+    }
+    completion_reward = {
+      459 = {
+        add_extra_state_shared_building_slots = 3
+        add_building_construction = {
+          type = industrial_complex
+          level = 1
+          instant_build = yes
+        }
+        add_building_construction = {
+          type = arms_factory
+          level = 1
+          instant_build = yes
+        }
+        add_building_construction {
+          type = dockyard
+          level = 1
+          instant_build = yes
+        }
+      }
     }
   }
 
