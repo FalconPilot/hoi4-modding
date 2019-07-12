@@ -17,7 +17,7 @@ focus_tree = {
     id = ALG_national_reforms
     icon = GFX_focus_eng_concessions_to_the_trade_unions
     cost = 5
-    x = 5
+    x = 7
     y = 0
     available_if_capitulated = yes
     completion_reward = {
@@ -29,7 +29,7 @@ focus_tree = {
     id = ALG_reinforce_national_unity
     icon = GFX_goal_generic_national_unity
     cost = 10
-    x = 5
+    x = 7
     y = 1
     prerequisite = { focus = ALG_national_reforms }
     completion_reward = {
@@ -41,13 +41,30 @@ focus_tree = {
     id = ALG_empower_federal_government
     icon = GFX_goal_generic_improve_relations
     cost = 10
+    x = 8
+    y = 2
+    prerequisite = { focus = ALG_reinforce_national_unity }
+    mutually_exclusive = { focus = ALG_maintain_federal_government }
+    completion_reward = {
+      add_political_power = 30
+      add_popularity = {
+        ideology = democratic
+        popularity = 0.10
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_maintain_federal_government
+    cost = 10
     x = 6
     y = 2
     prerequisite = { focus = ALG_reinforce_national_unity }
+    mutually_exclusive = { focus = ALG_empower_federal_government }
     completion_reward = {
-      add_political_power = 50
+      add_political_power = 120
       add_popularity = {
-        ideology = democratic
+        ideology = despotism
         popularity = 0.10
       }
     }
@@ -58,7 +75,7 @@ focus_tree = {
     id = ALG_finance_industrial_research
     icon = GFX_focus_generic_industry_1
     cost = 5
-    x = 10
+    x = 12
     y = 0
     completion_reward = {
       add_tech_bonus = {

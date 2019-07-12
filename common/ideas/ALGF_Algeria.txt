@@ -1,19 +1,43 @@
 ideas = {
+
+  ### National ideas ###
+
   country = {
     ALG_national_railway_company = {
       picture = idea_generic_build_infrastructure
       allowed = {
-        always = no
+        original_tag = ALG
       }
       allowed_civil_war = {
         OR = {
           has_government = democratic
+          has_government = despotism
         }
       }
       removal_cost = -1
       modifier = {
         production_speed_buildings_factor = 0.1
       }
+    }
+
+    ALG_organized_bureaucracy = {
+      picture = idea_generic_flexible_foreign_policy
+      allowed = {
+        original_tag = alg
+      }
+      removal_cost = -1
+      modifier = {
+
+      }
+    }
+  }
+
+  ### Political Staff ###
+
+  political_advisor = {
+    said_bahri = {
+      allowed = { has_completed_focus = ALG_empower_federal_government }
+      traits = { social_conservative_reformer }
     }
   }
 
@@ -22,7 +46,7 @@ ideas = {
   materiel_manufacturer = {
     designer = yes
     ALG_afa = {
-      picture = idea_generic_infantry_equipment_manufacturer_3
+      picture = generic_infantry_equipment_manufacturer_3
       allowed = {
         original_tag = ALG
       }
