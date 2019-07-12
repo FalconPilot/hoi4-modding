@@ -11,7 +11,7 @@ ideas = {
       allowed_civil_war = {
         OR = {
           has_government = democratic
-          has_government = despotism
+          has_government = neutrality
         }
       }
       removal_cost = -1
@@ -28,7 +28,7 @@ ideas = {
       removal_cost = -1
       modifier = {
         political_power_factor = 0.1
-        economy_cost_factor = -0.25
+        improve_relations_maintain_cost_factor = -0.5
       }
     }
 
@@ -129,7 +129,7 @@ ideas = {
   political_advisor = {
     said_bahri = {
       allowed = { has_completed_focus = ALG_empower_federal_government }
-      traits = { social_conservative_reformer }
+      traits = { democratic_reformer }
     }
 
     nadia_hakkar = {
