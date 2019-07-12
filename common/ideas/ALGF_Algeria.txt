@@ -4,7 +4,7 @@ ideas = {
 
   country = {
     ALG_national_railway_company = {
-      picture = idea_generic_build_infrastructure
+      picture = generic_build_infrastructure
       allowed = {
         original_tag = ALG
       }
@@ -124,7 +124,7 @@ ideas = {
     }
 
     ALG_women_in_the_army_1 = {
-      picture = mex_politicised_army_2
+      picture = MEX_politicised_army_2
       allowed = {
         original_tag = ALG
       }
