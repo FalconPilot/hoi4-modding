@@ -150,7 +150,7 @@ focus_tree = {
 
   focus = {
     id = ALG_long_live_the_federation
-    icon = GFX_goal_generic_support_democracy
+    icon = GFX_goal_support_democracy
     cost = 10
     x = 4
     y = 5
@@ -350,7 +350,7 @@ focus_tree = {
       ALG = {
         create_corps_commander = {
           name = "Mokhtar Sadoun"
-          picture = "portrait_arabia_generic_land_5.dds"
+          picture = "Portrait_Mokhtar.dds"
           skill = 4
           attack_skill = 4
           defense_skill = 4
@@ -361,7 +361,7 @@ focus_tree = {
 
         create_corps_commander = {
           name = "Karim Nakache"
-          picture = "Portrait_Arabia_Generic_land_1.dds"
+          picture = "Portrait_Karim.dds"
           skill = 3
           attack_skill = 2
           defense_skill = 3
@@ -372,7 +372,7 @@ focus_tree = {
 
         create_corps_commander = {
           name = "Mouloud Hamidou"
-          picture = "Portrait_Africa_Generic_land_2.dds"
+          picture = "Portrait_Mouloud.dds"
           skill = 3
           attack_skill = 2
           defense_skill = 3
