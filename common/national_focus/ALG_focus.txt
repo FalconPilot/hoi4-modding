@@ -209,7 +209,7 @@ focus_tree = {
     cost = 10
     x = 18
     y = 1
-    prerequisite = { ALG_professional_army }
+    prerequisite = { focus = ALG_professional_army }
     completion_reward = {
       add_manpower = 10000
       add_ideas = {
