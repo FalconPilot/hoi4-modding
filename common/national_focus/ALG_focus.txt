@@ -148,6 +148,25 @@ focus_tree = {
     }
   }
 
+  focus = {
+    id = ALG_long_live_the_federation
+    icon = GFX_goal_generic_support_democracy
+    cost = 10
+    x = 4
+    y = 5
+    prerequisite = { focus = ALG_womens_rights }
+    completion_reward = {
+      set_politics = {
+        ruling_party = democratic
+        elections_allowed = no
+      }
+      add_popularity = {
+        ideology = democratic
+        popularity = 0.1
+      }
+    }
+  }
+
   ### Communism ###
   focus = {
     id = ALG_oppose_the_royalty
@@ -317,7 +336,7 @@ focus_tree = {
 
   focus = {
     id = ALG_enlist_berber_officers
-    icon = GFX_focus_usa_honor_the_confederacy
+    icon = GFX_goal_generic_special_forces
     cost = 5
     x = 13
     y = 2
