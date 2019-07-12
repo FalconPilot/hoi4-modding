@@ -131,7 +131,7 @@ ideas = {
     removal_cost = -1
     modifier = {
       conscription = 0.005
-      communist_drift = 0.05
+      communism_drift = 0.05
       stability_factor = -0.15
     }
   }
