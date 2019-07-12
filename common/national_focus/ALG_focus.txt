@@ -240,7 +240,10 @@ focus_tree = {
     cost = 10
     x = 11
     y = 2
-    prerequisite = { focus = ALG_mainland_industrial_development }
+    prerequisite = {
+      focus = ALG_mainland_industrial_development
+      focus = ALG_recruit_desert_tribes
+    }
     available = {
       514 = {
         is_owned_and_controlled_by = ALG
@@ -265,10 +268,7 @@ focus_tree = {
     cost = 10
     x = 11
     y = 3
-    prerequisite = {
-      focus = ALG_the_saharan_project
-      focus = ALG_recruit_desert_tribes
-    }
+    prerequisite = { focus = ALG_the_saharan_project }
     available = {
       514 = {
         is_owned_and_controlled_by = ALG
