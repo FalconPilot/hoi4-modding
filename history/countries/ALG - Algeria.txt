@@ -69,9 +69,9 @@ set_politics = {
 
 set_popularities = {
   neutrality = 50
-  democratic = 42
-  communism = 8
-  fascism = 0
+  democratic = 32
+  communism = 16
+  fascism = 2
 }
 
 create_country_leader = {
@@ -88,4 +88,8 @@ create_country_leader = {
   ideology = socialism
   picture = "gfx/leaders/Arabia/portrait_arabia_generic_land_6.dds"
   traits = {}
+}
+
+create_country_leader = {
+  name = "Nabil Aouissi"
 }

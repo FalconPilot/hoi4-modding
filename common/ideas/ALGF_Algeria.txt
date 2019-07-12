@@ -123,14 +123,27 @@ ideas = {
       }
     }
 
-    ALG_women_in_the_army_1 = {
+    ALG_women_in_the_army = {
       picture = MEX_politicised_army_2
       allowed = {
         original_tag = ALG
       }
       removal_cost = -1
       modifier = {
-        conscription = 0.05
+        conscription = 0.03
+        stability_factor = -0.10
+      }
+    }
+
+    ALG_women_in_the_government = {
+      picture = air_support_focus
+      allowed = {
+        original_tag = ALG
+      }
+      removal_cost = -1
+      modifier = {
+        political_power_factor = 0.05
+        drift_defence_factor = 0.25
         stability_factor = -0.10
       }
     }
@@ -153,12 +166,18 @@ ideas = {
 
   political_advisor = {
     said_bahri = {
-      allowed = { has_completed_focus = ALG_empower_federal_government }
+      allowed = {
+        original_tag = ALG
+      }
+      available = { has_completed_focus = ALG_empower_federal_government }
       traits = { democratic_reformer }
     }
 
     nadia_hakkar = {
-      allowed = { has_completed_focus = ALG_womens_rights }
+      allowed = {
+        original_tag = ALG
+      }
+      available = { has_completed_focus = ALG_womens_rights }
       traits = { silent_workhorse }
     }
   }

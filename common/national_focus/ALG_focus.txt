@@ -72,7 +72,7 @@ focus_tree = {
       add_political_power = 120
       add_popularity = {
         ideology = neutrality
-        popularity = 0.10
+        popularity = 0.1
       }
     }
   }
@@ -95,8 +95,10 @@ focus_tree = {
       add_political_power = 30
       add_popularity = {
         ideology = democratic
-        popularity = 0.10
+        popularity = 0.05
       }
+      custom_effect_tooltip = available_political_advisor
+      show_ideas_tooltip = said_bahri
     }
   }
 
@@ -109,8 +111,10 @@ focus_tree = {
     prerequisite = { focus = ALG_empower_federal_government }
     completion_reward = {
       add_ideas = {
-        ALG_women_in_the_army_1
+        ALG_women_in_the_government
       }
+      custom_effect_tooltip = available_political_advisor
+      show_ideas_tooltip = nadia_hakkar
     }
   }
 
@@ -411,6 +415,25 @@ focus_tree = {
     completion_reward = {
       add_ideas = {
         ALG_berbers_legacy
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_lessons_of_war
+    icon = GFX_goal_generic_secret_weapon
+    cost = 10
+    x = 15
+    y = 1
+    prerequisite = { focus = ALG_professional_army }
+    completion_reward = {
+      army_experience = 25
+      air_experience = 25
+      navy_experience = 25
+      add_tech_bonus = {
+        bonus = 1
+        uses = 1
+        category = land_doctrine
       }
     }
   }
