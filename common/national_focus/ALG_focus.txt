@@ -118,7 +118,7 @@ focus_tree = {
     id = ALG_professional_army
     icon = GFX_focus_generic_military_mission
     cost = 10
-    x = 15
+    x = 16
     y = 0
     completion_reward = {
       army_experience = 20
@@ -126,10 +126,25 @@ focus_tree = {
   }
 
   focus = {
+    id = ALG_recruit_desert_tribes
+    icon = GFX_focus_RAJ_lions_of_the_great_war
+    cost = 10
+    x = 13
+    y = 1
+    prerequisite = { focus = ALG_professional_army }
+    completion_reward = {
+      add_manpower = 5000
+      add_ideas = {
+        ALG_desert_tribes
+      }
+    }
+  }
+
+  focus = {
     id = ALG_crackdown_on_officers_corruption
     icon = GFX_goal_generic_major_war
     cost = 10
-    x = 16
+    x = 17
     y = 1
     prerequisite = { focus = ALG_professional_army }
     completion_reward = {
@@ -144,7 +159,7 @@ focus_tree = {
     id = ALG_concess_to_militia
     icon = GFX_goal_generic_military_deal
     cost = 10
-    x = 16
+    x = 17
     y = 2
     prerequisite = { focus = ALG_crackdown_on_officers_corruption }
     completion_reward = {
@@ -159,7 +174,7 @@ focus_tree = {
     id = ALG_concess_to_french_officers
     icon = GFX_focus_chi_reach_out_to_france
     cost = 10
-    x = 16
+    x = 17
     y = 3
     prerequisite = { focus = ALG_concess_to_militia }
     completion_reward = {
@@ -175,7 +190,7 @@ focus_tree = {
     id = ALG_recognize_war_crimes
     icon = GFX_focus_CZE_german_puppet
     cost = 10
-    x = 16
+    x = 17
     y = 4
     prerequisite = { focus = ALG_concess_to_french_officers }
     completion_reward = {
@@ -191,7 +206,7 @@ focus_tree = {
     id = ALG_create_oran_staff_school
     icon = GFX_focus_jap_manchurian_project
     cost = 10
-    x = 16
+    x = 17
     y = 5
     prerequisite = { focus = ALG_recognize_war_crimes }
     completion_reward = {
@@ -202,21 +217,6 @@ focus_tree = {
         bonus = 1
         uses = 2
         category = land_doctrine
-      }
-    }
-  }
-
-  focus = {
-    id = ALG_recruit_desert_tribes
-    icon = GFX_focus_RAJ_lions_of_the_great_war
-    cost = 10
-    x = 18
-    y = 1
-    prerequisite = { focus = ALG_professional_army }
-    completion_reward = {
-      add_manpower = 5000
-      add_ideas = {
-        ALG_desert_tribes
       }
     }
   }

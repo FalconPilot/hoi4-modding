@@ -5,6 +5,10 @@
   ALG_national_reforms_desc: "After the independence war, a series of extensive reforms are needed before the country can go anywhere. We must think and act fast !"
   ALG_reinforce_national_unity: "Reinforce national unity"
   ALG_reinforce_national_unity_desc: "With the independance war over and reforms on their way, we need to reassure the population and bring people back together. United, we stand, divided, we fall."
+
+  ALG_maintain_royal_government: "Maintain royal government"
+  ALG_maintain_royal_government_desc: "The royalty may be old-fashioned, but it's still the best option we have. Our country is still fresh and new, let's not waste this opportunity by straying too far from our current path."
+
   ALG_empower_federal_government: "Empower the Federal government"
   ALG_empower_federal_government_desc: "For too long has the federal government been just an ideal. Time showed us the flaws of monarchy and we concluded that we need a free, united country under a stable federal rule."
   ALG_womens_rights: "Women's rights"
@@ -17,6 +21,10 @@
   
   ALG_professional_army: "Professionalize the army"
   ALG_professional_army_desc: "Since we disbanded the national militia, we need to officially make the army professional. This will be a long but necessary process."
+
+  ALG_recruit_desert_tribes: "Recruit desert tribes"
+  ALG_recruit_desert_tribes_desc: "The algerian desert has been overlooked for way too long. While the population is thin, there are many tribes filled with individuals eager to join the ranks of our army. Perhaps we could even take this even further in the future... ?"
+
   ALG_crackdown_on_officers_corruption: "Crackdown on officers corruption"
   ALG_crackdown_on_officers_corruption_desc: "The independence war blinded us way too much. We need to start breaking down the corruption among the military leading staff if we want to be able to achieve anything with our army."
   ALG_concess_to_militia: "Concessions to the Militia"
@@ -27,5 +35,3 @@
   ALG_recognize_war_crimes_desc: "While the war of independence was a victory, hideous crimes were committed against french locals. Some french people still live on our soil today, and some are even in our army. We should once and for all recognize the war crimes against french civilians to move forward and end the turmoil around the independence war."
   ALG_create_oran_staff_school: "Create the Oran military staff school"
   ALG_create_oran_staff_school_desc: "Now that our army is up and running, we can concentrate our efforts on the creation of an universal military staff school in Oran to study foreign combat tactics. Surely this will bring new perspectives and skills to our officers in command."
-  ALG_recruit_desert_tribes: "Recruit desert tribes"
-  ALG_recruit_desert_tribes_desc: "The algerian desert has been overlooked for way too long. While the population is thin, there are many tribes filled with individuals eager to join the ranks of our army. Perhaps we could even take this even further in the future... ?"
