@@ -132,7 +132,7 @@ focus_tree = {
     cost = 10
     x = 6
     y = 3
-    prerequisite = { ALG_reinforce_national_unity }
+    prerequisite = { focus = ALG_reinforce_national_unity }
     mutually_exclusive = {
       focus = ALG_maintain_royal_government
       focus = ALG_no_more_communism
