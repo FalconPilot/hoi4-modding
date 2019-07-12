@@ -163,6 +163,7 @@ focus_tree = {
     y = 3
     prerequisite = { focus = ALG_concess_to_militia }
     completion_reward = {
+      add_political_power = 50
       swap_ideas = {
         remove_idea = ALG_disjointed_army_3
         add_idea = ALG_disjointed_army_4
@@ -172,12 +173,14 @@ focus_tree = {
 
   focus = {
     id = ALG_recognize_war_crimes
-    icon = focus_cze_german_puppet
+    icon = GFX_focus_CZE_german_puppet
     cost = 10
     x = 16
     y = 4
     prerequisite = { focus = ALG_concess_to_french_officers }
     completion_reward = {
+      add_stability = 0.1
+      add_war_support = -0.05
       remove_ideas = {
         ALG_disjointed_army_4
       }
@@ -211,7 +214,7 @@ focus_tree = {
     y = 1
     prerequisite = { focus = ALG_professional_army }
     completion_reward = {
-      add_manpower = 10000
+      add_manpower = 5000
       add_ideas = {
         ALG_desert_tribes
       }
