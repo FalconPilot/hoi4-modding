@@ -86,6 +86,6 @@ create_country_leader = {
   name = "Federal Council of Algeria"
   desc = ""
   ideology = socialism
-  picture = "gfx/leaders/"
+  picture = "gfx/leaders/Arabia/portrait_arabia_generic_land_6.dds"
   traits = {}
 }

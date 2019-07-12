@@ -33,7 +33,7 @@ ideas = {
     }
 
     ALG_disjointed_army_1 = {
-      picture = idea_hol_expand_the_colonial_army
+      picture = GFX_idea_hol_expand_the_colonial_army
       allowed = {
         original_tag = ALG
       }
@@ -47,7 +47,7 @@ ideas = {
     }
 
     ALG_disjointed_army_2 = {
-      picture = idea_hol_expand_the_colonial_army
+      picture = GFX_idea_hol_expand_the_colonial_army
       allowed = {
         original_tag = ALG
       }
@@ -61,7 +61,7 @@ ideas = {
     }
 
     ALG_disjointed_army_3 = {
-      picture = idea_hol_expand_the_colonial_army
+      picture = GFX_idea_hol_expand_the_colonial_army
       allowed = {
         original_tag = ALG
       }
@@ -75,7 +75,7 @@ ideas = {
     }
 
     ALG_disjointed_army_4 = {
-      picture = idea_hol_expand_the_colonial_army
+      picture = GFX_idea_hol_expand_the_colonial_army
       allowed = {
         original_tag = ALG
       }

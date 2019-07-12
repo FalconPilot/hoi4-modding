@@ -7,6 +7,8 @@
   ALG_reinforce_national_unity_desc: "With the independance war over and reforms on their way, we need to reassure the population and bring people back together. United, we stand, divided, we fall."
   ALG_empower_federal_government: "Empower the Federal government"
   ALG_empower_federal_government_desc: "For too long has the federal government been just an ideal. Time showed us the flaws of monarchy and we concluded that we need a free, united country under a stable federal rule."
+  ALG_womens_rights: "Women's rights"
+  ALG_womens_rights_desc: "The interwar period has showed us that society cannot go back to its old ways. Many won't agree at first, but it is a necessary change for the country as a whole."
 
   ALG_finance_industrial_research: "Finance industrial research"
   ALG_finance_industrial_research_desc: "Some financial investiment in industrial research could represent a pretty nice benefit for the economy."
@@ -25,5 +27,5 @@
   ALG_recognize_war_crimes_desc: "While the war of independence was a victory, hideous crimes were committed against french locals. Some french people still live on our soil today, and some are even in our army. We should once and for all recognize the war crimes against french civilians to move forward and end the turmoil around the independence war."
   ALG_create_oran_staff_school: "Create the Oran military staff school"
   ALG_create_oran_staff_school_desc: "Now that our army is up and running, we can concentrate our efforts on the creation of an universal military staff school in Oran to study foreign combat tactics. Surely this will bring new perspectives and skills to our officers in command."
-  ALG_womens_rights: "Women's rights"
-  ALG_womens_rights_desc: "The interwar period has showed us that society cannot go back to its old ways. Many won't agree at first, but it is a necessary change for the country as a whole."
+  ALG_recruit_desert_tribes: "Recruit desert tribes"
+  ALG_recruit_desert_tribes_desc: "The algerian desert has been overlooked for way too long. While the population is thin, there are many tribes filled with individuals eager to join the ranks of our army. Perhaps we could even take this even further in the future... ?"

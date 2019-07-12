@@ -17,7 +17,7 @@ focus_tree = {
     id = ALG_national_reforms
     icon = GFX_focus_eng_concessions_to_the_trade_unions
     cost = 5
-    x = 7
+    x = 4
     y = 0
     available_if_capitulated = yes
     completion_reward = {
@@ -29,7 +29,7 @@ focus_tree = {
     id = ALG_reinforce_national_unity
     icon = GFX_goal_generic_national_unity
     cost = 10
-    x = 7
+    x = 4
     y = 1
     prerequisite = { focus = ALG_national_reforms }
     completion_reward = {
@@ -41,10 +41,10 @@ focus_tree = {
     id = ALG_empower_federal_government
     icon = GFX_goal_generic_improve_relations
     cost = 10
-    x = 8
+    x = 5
     y = 2
     prerequisite = { focus = ALG_reinforce_national_unity }
-    mutually_exclusive = { focus = ALG_maintain_federal_government }
+    mutually_exclusive = { focus = ALG_maintain_royal_government }
     completion_reward = {
       add_political_power = 30
       add_popularity = {
@@ -58,7 +58,7 @@ focus_tree = {
     id = ALG_womens_rights
     icon = GFX_focus_generic_support_the_left_right
     cost = 10
-    x = 8
+    x = 5
     y = 3
     prerequisite = { focus = ALG_empower_federal_government }
     completion_reward = {
@@ -69,9 +69,10 @@ focus_tree = {
   }
 
   focus = {
-    id = ALG_maintain_federal_government
+    id = ALG_maintain_royal_government
+    icon = GFX_focus_hun_elect_a_king
     cost = 10
-    x = 6
+    x = 3
     y = 2
     prerequisite = { focus = ALG_reinforce_national_unity }
     mutually_exclusive = { focus = ALG_empower_federal_government }
@@ -89,11 +90,11 @@ focus_tree = {
     id = ALG_finance_industrial_research
     icon = GFX_focus_generic_industry_1
     cost = 5
-    x = 12
+    x = 9
     y = 0
     completion_reward = {
       add_tech_bonus = {
-        bonus = 1.0
+        bonus = 1
         uses = 1
         category = industry
       }
@@ -104,7 +105,7 @@ focus_tree = {
     id = ALG_form_the_national_railway_company
     icon = GFX_goal_generic_construct_infrastructure
     cost = 10
-    x = 14
+    x = 11
     y = 1
     prerequisite = { focus = ALG_finance_industrial_research }
     completion_reward = {
@@ -117,7 +118,7 @@ focus_tree = {
     id = ALG_professional_army
     icon = GFX_focus_generic_military_mission
     cost = 10
-    x = 20
+    x = 15
     y = 0
     completion_reward = {
       army_experience = 20
@@ -128,7 +129,7 @@ focus_tree = {
     id = ALG_crackdown_on_officers_corruption
     icon = GFX_goal_generic_major_war
     cost = 10
-    x = 21
+    x = 16
     y = 1
     prerequisite = { focus = ALG_professional_army }
     completion_reward = {
@@ -143,7 +144,7 @@ focus_tree = {
     id = ALG_concess_to_militia
     icon = GFX_goal_generic_military_deal
     cost = 10
-    x = 21
+    x = 16
     y = 2
     prerequisite = { focus = ALG_crackdown_on_officers_corruption }
     completion_reward = {
@@ -158,7 +159,7 @@ focus_tree = {
     id = ALG_concess_to_french_officers
     icon = GFX_focus_chi_reach_out_to_france
     cost = 10
-    x = 21
+    x = 16
     y = 3
     prerequisite = { focus = ALG_concess_to_militia }
     completion_reward = {
@@ -171,9 +172,9 @@ focus_tree = {
 
   focus = {
     id = ALG_recognize_war_crimes
-    icon = GFX_focus_cze_german_puppet
+    icon = focus_cze_german_puppet
     cost = 10
-    x = 21
+    x = 16
     y = 4
     prerequisite = { focus = ALG_concess_to_french_officers }
     completion_reward = {
@@ -187,7 +188,7 @@ focus_tree = {
     id = ALG_create_oran_staff_school
     icon = GFX_focus_jap_manchurian_project
     cost = 10
-    x = 21
+    x = 16
     y = 5
     prerequisite = { focus = ALG_recognize_war_crimes }
     completion_reward = {
@@ -195,7 +196,7 @@ focus_tree = {
         ALG_oran_staff_school
       }
       add_tech_bonus = {
-        bonus = 100
+        bonus = 1
         uses = 2
         category = land_doctrine
       }
@@ -204,7 +205,17 @@ focus_tree = {
 
   focus = {
     id = ALG_recruit_desert_tribes
-    icon = 
+    icon = GFX_focus_RAJ_lions_of_the_great_war
+    cost = 10
+    x = 18
+    y = 1
+    prerequisite = { ALG_professional_army }
+    completion_reward = {
+      add_manpower = 10000
+      add_ideas = {
+        ALG_desert_tribes
+      }
+    }
   }
 
 }
