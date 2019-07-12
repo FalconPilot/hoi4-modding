@@ -1,7 +1,7 @@
 state = {
   id = 514
   name = "STATE_514"
-  manpower = 307733
+  manpower = 507733
   state_category = pastoral
   impassable = yes
   history = {

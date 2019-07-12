@@ -122,6 +122,19 @@ ideas = {
         stability_factor = -0.10
       }
     }
+
+    ALG_communist_militias = {
+    picture = idea_generic_communist_army
+    allowed = {
+      original_tag = ALG
+    }
+    removal_cost = -1
+    modifier = {
+      conscription = 0.005
+      communist_drift = 0.05
+      stability_factor = -0.15
+    }
+  }
   }
 
   ### Political Staff ###
