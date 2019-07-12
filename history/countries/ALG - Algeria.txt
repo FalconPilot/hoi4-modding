@@ -56,6 +56,10 @@ if = {
 
 set_convoys = 32
 
+add_ideas = {
+  ALG_disjointed_army_1
+}
+
 set_politics = {
   ruling_party = neutrality
   last_election = "1936.1.1"

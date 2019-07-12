@@ -55,6 +55,20 @@ focus_tree = {
   }
 
   focus = {
+    id = ALG_womens_rights
+    icon = GFX_focus_generic_support_the_left_right
+    cost = 10
+    x = 8
+    y = 3
+    prerequisite = { focus = ALG_empower_federal_government }
+    completion_reward = {
+      add_ideas = {
+        ALG_women_in_the_army_1
+      }
+    }
+  }
+
+  focus = {
     id = ALG_maintain_federal_government
     cost = 10
     x = 6
@@ -90,12 +104,107 @@ focus_tree = {
     id = ALG_form_the_national_railway_company
     icon = GFX_goal_generic_construct_infrastructure
     cost = 10
-    x = 11
+    x = 14
     y = 1
     prerequisite = { focus = ALG_finance_industrial_research }
     completion_reward = {
       add_ideas = ALG_national_railway_company
     }
+  }
+
+  ###### Military focuses ######
+  focus = {
+    id = ALG_professional_army
+    icon = GFX_focus_generic_military_mission
+    cost = 10
+    x = 20
+    y = 0
+    completion_reward = {
+      army_experience = 20
+    }
+  }
+
+  focus = {
+    id = ALG_crackdown_on_officers_corruption
+    icon = GFX_goal_generic_major_war
+    cost = 10
+    x = 21
+    y = 1
+    prerequisite = { focus = ALG_professional_army }
+    completion_reward = {
+      swap_ideas = {
+        remove_idea = ALG_disjointed_army_1
+        add_idea = ALG_disjointed_army_2
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_concess_to_militia
+    icon = GFX_goal_generic_military_deal
+    cost = 10
+    x = 21
+    y = 2
+    prerequisite = { focus = ALG_crackdown_on_officers_corruption }
+    completion_reward = {
+      swap_ideas = {
+        remove_idea = ALG_disjointed_army_2
+        add_idea = ALG_disjointed_army_3
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_concess_to_french_officers
+    icon = GFX_focus_chi_reach_out_to_france
+    cost = 10
+    x = 21
+    y = 3
+    prerequisite = { focus = ALG_concess_to_militia }
+    completion_reward = {
+      swap_ideas = {
+        remove_idea = ALG_disjointed_army_3
+        add_idea = ALG_disjointed_army_4
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_recognize_war_crimes
+    icon = GFX_focus_cze_german_puppet
+    cost = 10
+    x = 21
+    y = 4
+    prerequisite = { focus = ALG_concess_to_french_officers }
+    completion_reward = {
+      remove_ideas = {
+        ALG_disjointed_army_4
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_create_oran_staff_school
+    icon = GFX_focus_jap_manchurian_project
+    cost = 10
+    x = 21
+    y = 5
+    prerequisite = { focus = ALG_recognize_war_crimes }
+    completion_reward = {
+      add_ideas = {
+        ALG_oran_staff_school
+      }
+      add_tech_bonus = {
+        bonus = 100
+        uses = 2
+        category = land_doctrine
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_recruit_desert_tribes
+    icon = 
   }
 
 }
