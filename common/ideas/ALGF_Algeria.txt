@@ -161,8 +161,8 @@ ideas = {
         original_tag = ALG
       }
       research_bonus = {
-        infantry_weapons = 0.05
-        artillery = 0.05
+        infantry_weapons = 0.1
+        artillery = 0.1
       }
     }
   }
