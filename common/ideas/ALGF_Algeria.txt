@@ -87,7 +87,7 @@ ideas = {
     }
 
     ALG_oran_staff_school = {
-      picture = idea_raj_indian_gentlemen_officers
+      picture = raj_indian_gentlemen_officers
       allowed = {
         original_tag = ALG
       }
@@ -112,7 +112,7 @@ ideas = {
     }
 
     ALG_berbers_legacy = {
-      picture = idea_ast_volunteer_defence_corps
+      picture = ast_volunteer_defence_corps
       allowed = {
         original_tag = ALG
       }
@@ -124,7 +124,7 @@ ideas = {
     }
 
     ALG_women_in_the_army_1 = {
-      picture = idea_mex_politicised_army_2
+      picture = mex_politicised_army_2
       allowed = {
         original_tag = ALG
       }
@@ -136,7 +136,7 @@ ideas = {
     }
 
     ALG_communist_militias = {
-      picture = idea_generic_communist_army
+      picture = generic_communist_army
       allowed = {
         original_tag = ALG
       }
