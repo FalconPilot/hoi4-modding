@@ -179,7 +179,7 @@ ideas = {
         original_tag = ALG
       }
       available = { has_completed_focus = ALG_womens_rights }
-      picture = GFX_idea_generic_political_advisor_female_arab
+      picture = generic_political_advisor_female_arab
       traits = { silent_workhorse }
     }
   }

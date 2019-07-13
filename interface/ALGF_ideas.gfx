@@ -1,0 +1,9 @@
+spriteTypes = {
+
+  ### Algerian ideas ###
+
+  SpriteType = {
+    name = "GFX_idea_generic_political_advisor_female_arab"
+    texturefile = "gfx/interface/ideas/idea_generic_political_advisor_female_arab.dds"
+  }
+}
