@@ -159,6 +159,11 @@ focus_tree = {
     x = 4
     y = 5
     prerequisite = { focus = ALG_womens_rights }
+    available = {
+      ALG = {
+        democratic > 0.5
+      }
+    }
     completion_reward = {
       set_politics = {
         ruling_party = democratic
