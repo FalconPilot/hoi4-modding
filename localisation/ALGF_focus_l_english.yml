@@ -11,6 +11,10 @@
 
   ALG_maintain_royal_government: "Maintain royal government"
   ALG_maintain_royal_government_desc: "The royalty may be old-fashioned, but it's still the best option we have. Our country is still fresh and new, let's not waste this opportunity by straying too far from our current path."
+  ALG_suppress_royal_detractors: "Suppress royalism detractors"
+  ALG_suppress_royal_detractors_desc: "The royalty has been criticized heavily enough. We must ensure that this doesn't keep going on for too long... Even if it means giving a beating to some loud people."
+  ALG_algerian_deterrence: "Algerian deterrence"
+  ALG_algerian_deterrence_desc: "Even if we're currently dealing with the enemy within, we must not forget about the rest of the world. Who knows who next might want to make Algeria a colony again ? We must gather everyone and make this impossible."
 
   ALG_empower_federal_government: "Empower the Federal government"
   ALG_empower_federal_government_desc: "For too long has the federal government been just an ideal. Time showed us the flaws of monarchy and we concluded that we need a free, united country under a stable federal rule."
