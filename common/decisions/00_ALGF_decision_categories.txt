@@ -1,0 +1,3 @@
+african_desert_works = {
+  icon = generic_construction
+}
