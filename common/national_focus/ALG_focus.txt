@@ -349,6 +349,23 @@ focus_tree = {
   }
 
   focus = {
+    id = ALG_algiers_school_of_science
+    icon = GFX_focus_research
+    cost = 10
+    x = 9
+    y = 2
+    prerequisite = { focus = ALG_mainland_industrial_development }
+    available = {
+      459 = {
+        is_owned_and_controlled_by = ALG
+      }
+    }
+    completion_reward = {
+      add_research_slot = 1
+    }
+  }
+
+  focus = {
     id = ALG_the_saharan_project
     icon = GFX_focus_generic_industry_2
     cost = 10
