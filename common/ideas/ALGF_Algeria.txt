@@ -170,6 +170,7 @@ ideas = {
         original_tag = ALG
       }
       available = { has_completed_focus = ALG_empower_federal_government }
+      picture = idea_generic_political_advisor_arab_3
       traits = { democratic_reformer }
     }
 
@@ -178,6 +179,7 @@ ideas = {
         original_tag = ALG
       }
       available = { has_completed_focus = ALG_womens_rights }
+      picture = idea_generic_political_advisor_female_arab
       traits = { silent_workhorse }
     }
   }

@@ -78,12 +78,12 @@ create_country_leader = {
   name = "Mohamed Ben Ghilas"
   desc = ""
   ideology = despotism
-  picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
+  picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
   traits = {}
 }
 
 create_country_leader = {
-  name = "Federal Council of Algeria"
+  name = "Abdel Zidani"
   desc = ""
   ideology = socialism
   picture = "gfx/leaders/Arabia/portrait_arabia_generic_land_6.dds"
@@ -91,5 +91,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
-  name = "Nabil Aouissi"
+  name = "Abdallah Aouissi"
+  desc = ""
+  ideology = fascism
+  picture = "gfx/leaders/Arabia/Portrait_Arabia_Generic_fascism1.dds"
+  traits = {}
+}
+
+create_country_leader = {
+  name = "Nabil Bensaïd"
+  desc = ""
+  ideology = communism
+  picture = "gfx/leaders/Arabia/portrait_arabia_generic_land_7.dds"
+  traits = {}
 }
