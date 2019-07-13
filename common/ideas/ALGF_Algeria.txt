@@ -176,7 +176,7 @@ ideas = {
     }
 
     ALG_algerian_deterrence_idea = {
-      picture = YUG_federal_defense_council
+      picture = FRA_fortification_focus
       removal_cost = -1
       modifier = {
         production_speed_arms_factory_factor = 0.1
@@ -187,6 +187,14 @@ ideas = {
       research_bonus = {
           land_doctrine = 0.05
         }
+    }
+  }
+
+  ALG_french_defensive_tactics_idea = {
+    picture = YUG_federal_defense_council
+    removal_cost = -1
+    modifier = {
+      army_leader_start_defense_level = 1
     }
   }
 

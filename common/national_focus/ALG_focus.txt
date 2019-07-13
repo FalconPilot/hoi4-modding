@@ -547,6 +547,73 @@ focus_tree = {
   }
 
   focus = {
+    id = ALG_total_warfare_doctrine
+    icon = GFX_goal_generic_occypy_states_ongoing_war
+    cost = 10
+    x = 15
+    y = 2
+    prerequisite = { focus = ALG_lessons_of_war }
+    completion_reward = {
+      add_tech_bonus = {
+        bonus = 1
+        uses = 1
+        category = land_doctrine
+      }
+      add_tech_bonus = {
+        bonus = 1
+        uses = 1
+        category = naval_doctrine
+      }
+      add_tech_bonus = {
+        bonus = 1
+        uses = 1
+        category = air_doctrine
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_land_army_modernization
+    icon = GFX_goal_generic_allies_build_infantry
+    cost = 10
+    x = 15
+    y = 3
+    prerequisite = { focus = ALG_total_warfare_doctrine }
+    completion_reward = {
+      add_tech_bonus = {
+        bonus = 1
+        uses = 1
+        category = motorized
+      }
+      add_tech_bonus = {
+        bonus = 1
+        uses = 2
+        category = armor
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_french_defensive_tactics
+    icon = GFX_goal_generic_defence
+    cost = 10
+    x = 15
+    y = 4
+    prerequisite = { focus = ALG_land_army_modernization }
+    prerequisite = { focus = ALG_concess_to_french_officers }
+    completion_reward = {
+      add_ideas = {
+        ALG_french_defensive_tactics_idea
+      }
+      ALG = {
+        every_army_leader = {
+          add_defense = 1
+        }
+      }
+    }
+  }
+
+  focus = {
     id = ALG_crackdown_on_officers_corruption
     icon = GFX_goal_generic_major_war
     cost = 10
@@ -618,6 +685,11 @@ focus_tree = {
     completion_reward = {
       add_ideas = {
         ALG_oran_staff_school
+      }
+      ALG = {
+        every_army_leader = {
+          add_planning = 1
+        }
       }
       add_tech_bonus = {
         bonus = 1
