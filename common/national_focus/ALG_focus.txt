@@ -583,7 +583,10 @@ focus_tree = {
       add_tech_bonus = {
         bonus = 3
         uses = 1
-        category = motorized_equipment
+        category = {
+          motorized_equipment
+          cat_mechanized_equipment
+        }
       }
       add_tech_bonus = {
         bonus = 1
@@ -679,7 +682,7 @@ focus_tree = {
     cost = 10
     x = 19
     y = 1
-    prerequisite = { focus = ALG_land_army_modernization }
+    prerequisite = { focus = ALG_professional_army }
     completion_reward = {
       add_tech_bonus = {
         bonus = 1
@@ -690,6 +693,23 @@ focus_tree = {
         bonus = 1
         uses = 1
         category = cv_tech
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_the_desert_fox
+    icon = GFX_goal_generic_air_fighter
+    cost = 5
+    x = 19
+    y = 2
+    prerequisite = { focus = ALG_aeronaval_focus }
+    completion_reward = {
+      add_tech_bonus = {
+        bonus = 1
+        uses = 1
+        ahead_reduction = 2
+        technology = fighter2
       }
     }
   }

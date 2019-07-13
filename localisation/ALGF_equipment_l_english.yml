@@ -10,6 +10,11 @@
   ALG_infantry_equipment_3: "AKN42"
   ALG_infantry_equipment_3_short: "AKN42"
 
+  ALG_early_fighter: "Ufuq"
+  ALG_fighter1: "PX1 Batal"
+  ALG_fighter2: "PX2 Thaelib Alsahra"
+  ALG_fighter3: "PX3 Alshaykh"
+
   ALG_EQUIPMENT_VERSION_1: "C.1A"
   ALG_EQUIPMENT_VERSION_2: "C.1B"
   ALG_EQUIPMENT_VERSION_3: "C.2A"
