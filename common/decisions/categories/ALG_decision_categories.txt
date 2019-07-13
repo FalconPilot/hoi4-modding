@@ -1,0 +1,5 @@
+african_desert_works = {
+  allowed = {
+    original_tag = ALG
+  }
+}
