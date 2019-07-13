@@ -583,10 +583,8 @@ focus_tree = {
       add_tech_bonus = {
         bonus = 3
         uses = 1
-        category = {
-          motorized_equipment
-          cat_mechanized_equipment
-        }
+        category = motorized_equipment
+        category = cat_mechanized_equipment
       }
       add_tech_bonus = {
         bonus = 1
@@ -712,6 +710,10 @@ focus_tree = {
         technology = fighter2
       }
     }
+  }
+
+  focus = {
+    id = ALG_
   }
 
   focus = {
