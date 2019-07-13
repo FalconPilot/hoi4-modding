@@ -684,6 +684,11 @@ focus_tree = {
       add_tech_bonus = {
         bonus = 1
         uses = 1
+        category = light_fighter
+      }
+      add_tech_bonus = {
+        bonus = 1
+        uses = 1
         category = cv_tech
       }
     }
