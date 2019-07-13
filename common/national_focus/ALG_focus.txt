@@ -473,7 +473,7 @@ focus_tree = {
           defense_skill = 4
           planning_skill = 2
           logistics_skill = 3
-          traits = {}
+          traits = { agressive_assaulter }
         }
 
         create_corps_commander = {
@@ -484,7 +484,7 @@ focus_tree = {
           defense_skill = 3
           planning_skill = 3
           logistics_skill = 2
-          traits = {}
+          traits = { infantry_officer }
         }
 
         create_corps_commander = {
@@ -495,7 +495,7 @@ focus_tree = {
           defense_skill = 3
           planning_skill = 2
           logistics_skill = 3
-          traits = {}
+          traits = { cavalry_officer }
         }
       }
     }
@@ -777,7 +777,41 @@ focus_tree = {
     x = 16
     y = 6
     prerequisite = { focus = ALG_create_oran_staff_school }
-    completion_reward = {}
+    completion_reward = {
+      create_navy_leader = {
+        name = "Bachir Merabet"
+        picture = ""
+        skill = 4
+        traits = { chief_engineer navy_media_personality navy_career_officer }
+      }
+      add_ace = {
+        name = "Fatima"
+        surname = "Bouguerra"
+        callsign = "Desert Fennec"
+        type = fighter_unique
+        is_female = yes
+      }
+      create_field_marshal = {
+        name = "Mohamed Khaldi"
+        picture = "Portrait_Mohamed.dds"
+        skill = 5
+        attack_skill = 5
+        defense_skill = 4
+        planning_skill = 4
+        logistics_skill = 3
+        traits = { offensive_doctrine defensive_doctrine organizer logistics_wizard }
+      }
+      create_corps_commander = {
+        name = "François Fauve"
+        picture = "Portrait_Francois.dds"
+        skill = 5
+        attack_skill = 3
+        defense_skill = 5
+        planning_skill = 3
+        logistics_skill = 5
+        traits = { inflexible_strategist infantry_officer trait_reckless war_hero }
+      }
+    }
   }
 
 }
