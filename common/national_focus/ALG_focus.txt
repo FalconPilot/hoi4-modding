@@ -234,6 +234,8 @@ focus_tree = {
           ruling_party = communism
           ideology = ROOT
           size = 0.4
+          capital = 460
+          states = { 460 }
         }
       }
     }
