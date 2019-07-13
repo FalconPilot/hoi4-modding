@@ -548,7 +548,7 @@ focus_tree = {
 
   focus = {
     id = ALG_total_warfare_doctrine
-    icon = GFX_goal_generic_occypy_states_ongoing_war
+    icon = GFX_goal_generic_occupy_states_ongoing_war
     cost = 10
     x = 15
     y = 2
