@@ -176,7 +176,7 @@ ideas = {
     }
 
     ALG_algerian_deterrence_idea = {
-      picture = yug_federal_defense_council
+      picture = YUG_federal_defense_council
       removal_cost = -1
       modifier = {
         production_speed_arms_factory_factor = 0.1

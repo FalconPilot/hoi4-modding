@@ -79,6 +79,7 @@ focus_tree = {
 
   focus = {
     id = ALG_suppress_royal_detractors
+    icon = GFX_goal_generic_political_pressure
     cost = 10
     x = 2
     y = 3
@@ -94,6 +95,7 @@ focus_tree = {
   focus = {
     id = ALG_algerian_deterrence
     icon = GFX_focus_generic_home_defense
+    cost = 10
     x = 2
     y = 5
     prerequisite = { focus = ALG_suppress_royal_detractors }
@@ -271,7 +273,7 @@ focus_tree = {
 
   focus = {
     id = ALG_enlist_women_in_the_army
-    icon = GFX_goal_generic_allies_build_infantry
+    icon = GFX_focus_generic_little_entente
     cost = 10
     x = 6
     y = 5
