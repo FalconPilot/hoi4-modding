@@ -82,7 +82,7 @@ focus_tree = {
     cost = 10
     x = 2
     y = 3
-    prerequisite = { ALG_maintain_royal_government }
+    prerequisite = { focus = ALG_maintain_royal_government }
     completion_reward = {
       add_timed_idea = {
         idea = ALG_suppress_royalism_detractors
@@ -96,7 +96,7 @@ focus_tree = {
     picture = GFX_focus_generic_home_defense
     x = 2
     y = 5
-    prerequisite = { ALG_suppress_royal_detractors }
+    prerequisite = { focus = ALG_suppress_royal_detractors }
     completion_reward = {
       add_ideas = {
         ALG_algerian_deterrence_idea
