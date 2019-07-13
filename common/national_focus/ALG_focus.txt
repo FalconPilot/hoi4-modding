@@ -427,9 +427,9 @@ focus_tree = {
     y = 1
     prerequisite = { focus = ALG_professional_army }
     completion_reward = {
-      army_experience = 25
-      air_experience = 25
-      navy_experience = 25
+      army_experience = 5
+      air_experience = 5
+      navy_experience = 5
       add_tech_bonus = {
         bonus = 1
         uses = 1
