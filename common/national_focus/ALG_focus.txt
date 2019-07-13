@@ -200,6 +200,45 @@ focus_tree = {
     }
   }
 
+  focus = {
+    id = ALG_socialist_propaganda
+    icon = GFX_goal_generic_propaganda
+    cost = 10
+    x = 6
+    y = 3
+    prerequisite = { focus = ALG_oppose_the_royalty }
+    completion_reward = {
+      add_political_power = 200
+      add_popularity = {
+        ideology = communism
+        popularity = 0.15
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_end_the_oppression
+    icon = GFX_goal_generic_war_with_comintern
+    cost = 5
+    x = 8
+    y = 4
+    prerequisite = { focus = ALG_socialist_propaganda }
+    bypass = {
+      ALG = {
+        has_government = communism
+      }
+    }
+    completion_reward = {
+      ALG = {
+        start_civil_war = {
+          ruling_party = communism
+          ideology = ROOT
+          size = 0.4
+        }
+      }
+    }
+  }
+
   ###### Industrial focuses ######
   focus = {
     id = ALG_finance_industrial_research

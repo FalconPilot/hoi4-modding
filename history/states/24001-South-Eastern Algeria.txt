@@ -1,0 +1,14 @@
+state = {
+  id = 24001
+  name = "STATE_24001"
+  manpower = 1195241
+  state_category = rural
+  provinces = { 1141 1967 4970 5053 7149 9943 10059 12034 12888 }
+  history = {
+    owner = ALG
+    add_core_of = ALG
+    buildings = {
+      infrastructure = 2
+    }
+  }
+}
