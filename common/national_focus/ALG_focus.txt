@@ -702,7 +702,7 @@ focus_tree = {
     y = 5
     prerequisite = { focus = ALG_recognize_war_crimes }
     prerequisite = { focus = ALG_french_defensive_tactics }
-    prerequisite = { focus = ALG_berbers_legacy }
+    prerequisite = { focus = ALG_legacy_of_the_berbers }
     completion_reward = {
       add_ideas = {
         ALG_oran_staff_school
