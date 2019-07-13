@@ -581,9 +581,9 @@ focus_tree = {
     prerequisite = { focus = ALG_total_warfare_doctrine }
     completion_reward = {
       add_tech_bonus = {
-        bonus = 1
+        bonus = 3
         uses = 1
-        category = motorized
+        category = motorized_equipment
       }
       add_tech_bonus = {
         bonus = 1
