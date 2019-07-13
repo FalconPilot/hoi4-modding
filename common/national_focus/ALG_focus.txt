@@ -605,10 +605,8 @@ focus_tree = {
       add_ideas = {
         ALG_french_defensive_tactics_idea
       }
-      ALG = {
-        every_army_leader = {
-          add_defense = 1
-        }
+      every_army_leader = {
+        add_defense = 1
       }
     }
   }
@@ -686,10 +684,8 @@ focus_tree = {
       add_ideas = {
         ALG_oran_staff_school
       }
-      ALG = {
-        every_army_leader = {
-          add_planning = 1
-        }
+      every_army_leader = {
+        add_planning = 1
       }
       add_tech_bonus = {
         bonus = 1
