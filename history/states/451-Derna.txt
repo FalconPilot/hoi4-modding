@@ -1,0 +1,19 @@
+state = {
+  id = 451
+  name = "STATE_451"
+  manpower = 345628
+  state_category = rural
+  provinces={ 1130 1204 4136 4151 7082 9992 10120 12094 }
+  history={
+    owner = LBA
+    add_core_of = LBA
+    victory_points = { 1130 5 }
+    buildings = {
+      infrastructure = 3
+      1130 = {
+        naval_base = 3
+        coastal_bunker = 1
+      }
+    }
+  }
+}
