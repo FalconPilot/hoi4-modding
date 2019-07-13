@@ -696,7 +696,7 @@ focus_tree = {
   }
 
   focus = {
-    id = ALG_the_desert_fox
+    id = ALG_the_desert_fennec
     icon = GFX_goal_generic_air_fighter
     cost = 5
     x = 19
@@ -713,7 +713,36 @@ focus_tree = {
   }
 
   focus = {
-    id = ALG_
+    id = ALG_modern_light_ships
+    icon = GFX_focus_generic_navy_battleship2
+    cost = 10
+    x = 19
+    y = 3
+    prerequisite = { focus = ALG_the_desert_fennec }
+    completion_reward = {
+      add_tech_bonus = {
+        bonus = 1
+        uses = 3
+        category = dd_tech
+        category = cl_tech
+        category = ss_tech
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_air_safety_drills
+    icon = GFX_goal_generic_air_fighter2
+    cost = 10
+    x = 19
+    y = 4
+    prerequisite = { focus = ALG_modern_light_ships }
+    completion_reward = {
+      air_experience = 25
+      add_ideas = {
+        ALG_air_safety_drills_idea
+      }
+    }
   }
 
   focus = {
@@ -725,6 +754,7 @@ focus_tree = {
     prerequisite = { focus = ALG_recognize_war_crimes }
     prerequisite = { focus = ALG_french_defensive_tactics }
     prerequisite = { focus = ALG_legacy_of_the_berbers }
+    prerequisite = { focus = ALG_air_safety_drills }
     completion_reward = {
       add_ideas = {
         ALG_oran_staff_school
@@ -738,6 +768,16 @@ focus_tree = {
         category = land_doctrine
       }
     }
+  }
+
+  focus = {
+    id = ALG_algerian_heroes
+    icon = GFX_focus_eng_special_air_service
+    cost = 10
+    x = 16
+    y = 6
+    prerequisite = { focus = ALG_create_oran_staff_school }
+    completion_reward = {}
   }
 
 }

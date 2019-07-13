@@ -81,8 +81,12 @@
 
   ALG_aeronaval_focus: "Aeronaval focus"
   ALG_aeronaval_focus_desc: "Our country requires a strong modernization in the naval and aerial department. And so, our military staff wondered : why shouldn't we combine the two ?"
-  ALG_the_desert_fox: "The desert fox"
-  ALG_the_desert_fox_desc: "Some theorists tried to imagine what modern warfare will look like. Fighters ruling the skies is one of those things. For that, we must invest whatever we can into developing a new, modern fighter that will indeed rule the sky !"
+  ALG_the_desert_fennec: "The desert fennec"
+  ALG_the_desert_fennec_desc: "Some theorists tried to imagine what modern warfare will look like. Fighters ruling the skies is one of those things. For that, we must invest whatever we can into developing a new, modern fighter that will indeed rule the sky !"
+  ALG_modern_light_ships: "Modern light ships"
+  ALG_modern_light_ships: "We need to improve on our aging ship designs, especially our lighter ones. Big, beefy ships won't do much without sufficient protection from destroyers and cruisers."
+  ALG_air_safety_drills: "Air safety drills"
+  ALG_air_safety_drills_desc: "Planes are expensive and complex to manufacture. Our best luck is to limit as much as possible the pointless losses of aircrafts and preserving them for much needed air battles."
 
   ALG_create_oran_staff_school: "Oran military staff school"
   ALG_create_oran_staff_school_desc: "Now that our army is up and running, we can concentrate our efforts on the creation of an universal military staff school in Oran to study foreign combat tactics. Surely this will bring new perspectives and skills to our officers in command."
