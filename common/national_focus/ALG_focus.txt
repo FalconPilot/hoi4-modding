@@ -245,11 +245,11 @@ focus_tree = {
     id = ALG_enlist_women_in_the_army
     icon = GFX_goal_generic_allies_build_infantry
     cost = 10
-    x = 8
-    y = 6
+    x = 6
+    y = 5
     prerequisite = {
-      ALG_womens_rights
-      ALG_socialist_propaganda
+      focus = ALG_womens_rights
+      focus = ALG_socialist_propaganda
     }
     completion_reward = {
       add_ideas = { ALG_women_in_the_army }
