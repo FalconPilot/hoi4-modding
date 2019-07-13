@@ -93,7 +93,7 @@ create_country_leader = {
 create_country_leader = {
   name = "Abdallah Aouissi"
   desc = ""
-  ideology = fascism
+  ideology = fascism_ideology
   picture = "gfx/leaders/Arabia/Portrait_Arabia_Generic_fascism1.dds"
   traits = {}
 }
@@ -101,7 +101,7 @@ create_country_leader = {
 create_country_leader = {
   name = "Nabil Bensaïd"
   desc = ""
-  ideology = communism
+  ideology = marxism
   picture = "gfx/leaders/Arabia/portrait_arabia_generic_land_7.dds"
   traits = {}
 }

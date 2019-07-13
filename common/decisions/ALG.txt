@@ -1,12 +1,13 @@
 ### Desert works ###
-desert_works_category = {
-  north_africa_desert_works = {
+african_desert_works = {
+  north_africa_desert_opening = {
     allowed = { always = yes }
     icon = generic_construction
     available = {
       459 = {
         is_owned_and_controlled_by = ALG
       }
+      num_of_civilian_factories > 8
     }
     fire_only_once = yes
     days_remove = 180
@@ -14,7 +15,7 @@ desert_works_category = {
       civilian_factory_use = 8
     }
     remove_effect = {
-      
+
     }
   }
 }
