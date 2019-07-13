@@ -185,17 +185,17 @@ ideas = {
         production_speed_anti_air_building_factor = 0.25
       }
       research_bonus = {
-          land_doctrine = 0.05
-        }
+        land_doctrine = 0.05
+      }
     }
-  }
 
-  ALG_french_defensive_tactics_idea = {
+    ALG_french_defensive_tactics_idea = {
     picture = YUG_federal_defense_council
     removal_cost = -1
     modifier = {
       army_leader_start_defense_level = 1
     }
+  }
   }
 
   ### Political Staff ###
