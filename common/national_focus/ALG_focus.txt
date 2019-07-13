@@ -530,7 +530,7 @@ focus_tree = {
   focus = {
     id = ALG_lessons_of_war
     icon = GFX_goal_generic_secret_weapon
-    cost = 10
+    cost = 5
     x = 15
     y = 1
     prerequisite = { focus = ALG_professional_army }
@@ -674,12 +674,30 @@ focus_tree = {
   }
 
   focus = {
+    id = ALG_aeronaval_focus
+    icon = GFX_goal_generic_navy_carrier
+    cost = 10
+    x = 19
+    y = 1
+    prerequisite = { focus = ALG_land_army_modernization }
+    completion_reward = {
+      add_tech_bonus = {
+        bonus = 1
+        uses = 1
+        category = cv_tech
+      }
+    }
+  }
+
+  focus = {
     id = ALG_create_oran_staff_school
     icon = GFX_focus_jap_manchurian_project
     cost = 10
-    x = 17
+    x = 16
     y = 5
     prerequisite = { focus = ALG_recognize_war_crimes }
+    prerequisite = { focus = ALG_french_defensive_tactics }
+    prerequisite = { focus = ALG_berbers_legacy }
     completion_reward = {
       add_ideas = {
         ALG_oran_staff_school
@@ -689,7 +707,7 @@ focus_tree = {
       }
       add_tech_bonus = {
         bonus = 1
-        uses = 2
+        uses = 3
         category = land_doctrine
       }
     }
