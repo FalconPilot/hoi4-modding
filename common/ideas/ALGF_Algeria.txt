@@ -230,9 +230,8 @@ ideas = {
         air_weather_penalty = -0.1
       }
     }
-  }
 
-  ALG_scientific_refugees = {
+    ALG_scientific_refugees = {
     picture = generic_research_bonus
     allowed = {
       original_tag = ALG
@@ -241,6 +240,7 @@ ideas = {
     modifier = {
       research_speed_factor = 0.05
     }
+  }
   }
 
   ### Political Staff ###
