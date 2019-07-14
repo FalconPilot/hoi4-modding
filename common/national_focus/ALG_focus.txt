@@ -535,7 +535,7 @@ focus_tree = {
     id = ALG_professional_army
     icon = GFX_focus_generic_military_mission
     cost = 10
-    x = 16
+    x = 22
     y = 0
     completion_reward = {
       army_experience = 20
@@ -546,7 +546,7 @@ focus_tree = {
     id = ALG_recruit_desert_tribes
     icon = GFX_focus_RAJ_lions_of_the_great_war
     cost = 10
-    x = 17
+    x = 19
     y = 1
     prerequisite = { focus = ALG_professional_army }
     available = {
@@ -566,7 +566,7 @@ focus_tree = {
     id = ALG_enlist_berber_officers
     icon = GFX_goal_generic_special_forces
     cost = 5
-    x = 17
+    x = 19
     y = 2
     prerequisite = { focus = ALG_recruit_desert_tribes }
     available = {
@@ -616,7 +616,7 @@ focus_tree = {
     id = ALG_tales_from_the_sahara
     icon = GFX_goal_generic_army_doctrines
     cost = 5
-    x = 17
+    x = 19
     y = 3
     prerequisite = { focus = ALG_enlist_berber_officers }
     completion_reward = {
@@ -628,7 +628,7 @@ focus_tree = {
     id = ALG_legacy_of_the_berbers
     icon = GFX_goal_generic_cavalry
     cost = 10
-    x = 17
+    x = 19
     y = 4
     prerequisite = { focus = ALG_tales_from_the_sahara }
     completion_reward = {
@@ -642,7 +642,7 @@ focus_tree = {
     id = ALG_lessons_of_war
     icon = GFX_goal_generic_secret_weapon
     cost = 5
-    x = 19
+    x = 21
     y = 1
     prerequisite = { focus = ALG_professional_army }
     completion_reward = {
@@ -661,7 +661,7 @@ focus_tree = {
     id = ALG_total_warfare_doctrine
     icon = GFX_goal_generic_occupy_states_ongoing_war
     cost = 10
-    x = 19
+    x = 21
     y = 2
     prerequisite = { focus = ALG_lessons_of_war }
     completion_reward = {
@@ -687,7 +687,7 @@ focus_tree = {
     id = ALG_land_army_modernization
     icon = GFX_goal_generic_allies_build_infantry
     cost = 10
-    x = 19
+    x = 21
     y = 3
     prerequisite = { focus = ALG_total_warfare_doctrine }
     completion_reward = {
@@ -709,7 +709,7 @@ focus_tree = {
     id = ALG_french_defensive_tactics
     icon = GFX_goal_generic_defence
     cost = 10
-    x = 19
+    x = 21
     y = 4
     prerequisite = { focus = ALG_land_army_modernization }
     prerequisite = { focus = ALG_concess_to_french_officers }
@@ -727,7 +727,7 @@ focus_tree = {
     id = ALG_crackdown_on_officers_corruption
     icon = GFX_goal_generic_major_war
     cost = 10
-    x = 21
+    x = 23
     y = 1
     prerequisite = { focus = ALG_professional_army }
     completion_reward = {
@@ -742,7 +742,7 @@ focus_tree = {
     id = ALG_concess_to_militia
     icon = GFX_goal_generic_military_deal
     cost = 10
-    x = 21
+    x = 23
     y = 2
     prerequisite = { focus = ALG_crackdown_on_officers_corruption }
     completion_reward = {
@@ -757,7 +757,7 @@ focus_tree = {
     id = ALG_concess_to_french_officers
     icon = GFX_focus_chi_reach_out_to_france
     cost = 10
-    x = 21
+    x = 23
     y = 3
     prerequisite = { focus = ALG_concess_to_militia }
     completion_reward = {
@@ -773,7 +773,7 @@ focus_tree = {
     id = ALG_recognize_war_crimes
     icon = GFX_focus_CZE_german_puppet
     cost = 5
-    x = 21
+    x = 23
     y = 4
     prerequisite = { focus = ALG_concess_to_french_officers }
     completion_reward = {
@@ -789,7 +789,7 @@ focus_tree = {
     id = ALG_aeronaval_focus
     icon = GFX_goal_generic_navy_carrier
     cost = 10
-    x = 23
+    x = 25
     y = 1
     prerequisite = { focus = ALG_professional_army }
     completion_reward = {
@@ -810,7 +810,7 @@ focus_tree = {
     id = ALG_the_desert_fennec
     icon = GFX_goal_generic_air_fighter
     cost = 5
-    x = 23
+    x = 25
     y = 2
     prerequisite = { focus = ALG_aeronaval_focus }
     completion_reward = {
@@ -827,7 +827,7 @@ focus_tree = {
     id = ALG_modern_light_ships
     icon = GFX_focus_generic_navy_battleship2
     cost = 10
-    x = 23
+    x = 25
     y = 3
     prerequisite = { focus = ALG_the_desert_fennec }
     completion_reward = {
@@ -845,7 +845,7 @@ focus_tree = {
     id = ALG_air_safety_drills
     icon = GFX_goal_generic_air_fighter2
     cost = 10
-    x = 23
+    x = 25
     y = 4
     prerequisite = { focus = ALG_modern_light_ships }
     completion_reward = {
@@ -860,7 +860,7 @@ focus_tree = {
     id = ALG_create_oran_staff_school
     icon = GFX_focus_jap_manchurian_project
     cost = 10
-    x = 16
+    x = 22
     y = 5
     prerequisite = { focus = ALG_recognize_war_crimes }
     prerequisite = { focus = ALG_french_defensive_tactics }
@@ -885,7 +885,7 @@ focus_tree = {
     id = ALG_algerian_heroes
     icon = GFX_focus_eng_special_air_service
     cost = 10
-    x = 16
+    x = 22
     y = 6
     prerequisite = { focus = ALG_create_oran_staff_school }
     completion_reward = {
