@@ -37,7 +37,9 @@
   ALG_enlist_women_in_the_army_desc: "Our country needs more soldiers to form a strong army. Maybe we could actually try something daring and revolutionary... How about we let women draft in the army ? After all, a soldier is a soldier, no matter what people think of it right now."
 
   ALG_finance_industrial_research: "Finance industrial research"
-  ALG_finance_industrial_research_desc: "Some financial investiment in industrial research could represent a pretty nice benefit for the economy."
+  ALG_finance_industrial_research_desc: "Some financial investment in industrial research could represent a pretty nice benefit for the economy."
+  ALG_rebuild_the_nation: "Rebuild the nation"
+  ALG_rebuild_the_nation_desc: "Our nation was left damaged by the war of independence. We must get everyone and start working to rebuild our homes, shops and factories, starting right now !"
   ALG_form_the_national_railway_company: "Form the National Railway Company"
   ALG_form_the_national_railway_company_desc: "Creating a centralized railway company might improve our industrial complexes logistics."
   ALG_mainland_industrial_development: "Mainland industrial development"
