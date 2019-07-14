@@ -20,6 +20,24 @@
       }
 
       ship = {
+        name = "Ghadab Albahr"
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_conversion_ca = {
+            amount = 1
+            owner = ALG
+            version_name = "Algiers Class"
+          }
+        }
+        air_wings = {
+          cv_nav_bomber_equipment_1 = {
+            owner = ALG
+            amount = 20
+          }
+        }
+      }
+
+      ship = {
         name = "Oasis 1"
         definition = light_cruiser
         equipment = {
