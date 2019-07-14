@@ -89,7 +89,7 @@ units = {
     name = "1st Federal Police Brigade"
     location = 1145
     division_template = "Federal Police"
-    start_experience_factor = 0.2
+    start_experience_factor = 0.1
     start_equipment_factor = 0.8
   }
 
@@ -107,6 +107,14 @@ units = {
     division_template = "Federal Police"
     start_experience_factor = 0.1
     start_equipment_factor = 0.8
+  }
+
+  division = {
+    name = "Saharan Marauders"
+    location = 1901
+    division_template = "Kel Tamasheq"
+    start_experience_factor = 0.3
+    start_equipment_factor = 1.0
   }
 }
 
