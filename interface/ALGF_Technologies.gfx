@@ -11,4 +11,9 @@ spriteTypes = {
     name = "GFX_ALG_infantry_weapons1_medium"
     texturefile = "gfx/interface/technologies/f1fatma.dds"
   }
+
+  SpriteType = {
+    name = "GFX_ALG_fighter_equipment_0_medium"
+    texturefile = "gfx/interface/technologies/ufuq.dds"
+  }
 }
