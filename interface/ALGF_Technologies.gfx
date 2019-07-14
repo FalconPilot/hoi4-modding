@@ -17,8 +17,16 @@ spriteTypes = {
     texturefile = "gfx/interface/technologies/qua85mm.dds"
   }
 
+  ### Algerian planes ###
+
   SpriteType = {
     name = "GFX_ALG_early_fighter_medium"
     texturefile = "gfx/interface/technologies/ufuq.dds"
+  }
+
+  ### Algerian tanks ###
+  SpriteType = {
+    name = "GFX_ALG_basic_light_tank_medium"
+    texturefile = "gfx/interface/technologies/m200muharib.dds"
   }
 }

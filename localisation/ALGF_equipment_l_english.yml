@@ -10,6 +10,11 @@
   ALG_infantry_equipment_3: "AKN42"
   ALG_infantry_equipment_3_short: "AKN42"
 
+  ALG_gw_tank_equipment: "Renault FT-17"
+  ALG_gw_tank_equipment_short: "FT-17"
+  ALG_light_tank_equipment_1: "M200 Muharib"
+  ALG_light_tank_equipment_1_short: "M200"
+
   ALG_EQUIPMENT_VERSION_1: "C.1A"
   ALG_EQUIPMENT_VERSION_2: "C.1B"
   ALG_EQUIPMENT_VERSION_3: "C.2A"

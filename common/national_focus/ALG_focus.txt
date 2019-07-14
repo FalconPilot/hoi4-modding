@@ -661,7 +661,7 @@ focus_tree = {
   focus = {
     id = ALG_recognize_war_crimes
     icon = GFX_focus_CZE_german_puppet
-    cost = 10
+    cost = 5
     x = 17
     y = 4
     prerequisite = { focus = ALG_concess_to_french_officers }
