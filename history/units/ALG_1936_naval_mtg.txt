@@ -1,0 +1,21 @@
+﻿units = {
+  fleet = {
+    name = "Algerian Royal Navy"
+    naval_base = 1145
+    task_force = {
+      name = "Federal Defense Force"
+      location = 1145
+      ship = {
+        name = "Muhajim Albahr Almutawasit"
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = ALG
+            version_name = "Oran Class"
+          }
+        }
+      }
+    }
+  }
+}
