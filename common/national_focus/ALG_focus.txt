@@ -52,6 +52,12 @@ focus_tree = {
       focus = ALG_maintain_royal_government
       focus = ALG_oppose_the_royalty
     }
+    completion_reward = {
+      add_popularity = {
+        ideology = communism
+        popularity = -0.1
+      }
+    }
   }
 
   ### Neutrality ###
@@ -220,6 +226,7 @@ focus_tree = {
       focus = ALG_empower_federal_government
     }
     completion_reward = {
+      add_war_support = 0.1
       add_ideas = {
         ALG_communist_militias
       }
@@ -793,6 +800,7 @@ focus_tree = {
     y = 6
     prerequisite = { focus = ALG_create_oran_staff_school }
     completion_reward = {
+      add_war_support = 0.15
       create_navy_leader = {
         name = "Bachir Merabet"
         picture = ""

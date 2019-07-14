@@ -24,6 +24,11 @@ spriteTypes = {
     texturefile = "gfx/interface/technologies/ufuq.dds"
   }
 
+  SpriteType = {
+    name = "GFX_ALG_fighter1_medium"
+    texturefile = "gfx+interface/technologies/alg_px1.dds"
+  }
+
   ### Algerian tanks ###
   SpriteType = {
     name = "GFX_ALG_basic_light_tank_medium"
