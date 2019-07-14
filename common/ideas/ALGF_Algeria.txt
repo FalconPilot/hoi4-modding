@@ -215,6 +215,7 @@ ideas = {
       removal_cost = -1
       modifier = {
         army_leader_start_defense_level = 1
+        supply_consumption_factor = -0.05
       }
     }
 
