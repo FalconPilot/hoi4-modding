@@ -118,6 +118,19 @@ units = {
   }
 }
 
+### Air wings ###
+
+air_wings = {
+  459 = {
+    fighter_equipment_0 = {
+      owner = ALG
+      amount = 20
+    }
+  }
+}
+
+### Equipment production ###
+
 instant_effect = {
   add_equipment_production = {
     equipment = {
