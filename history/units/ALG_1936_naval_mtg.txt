@@ -5,6 +5,7 @@
     task_force = {
       name = "Federal Defense Force"
       location = 1145
+
       ship = {
         name = "Muhajim Albahr Almutawasit"
         definition = battleship
@@ -13,6 +14,79 @@
             amount = 1
             owner = ALG
             version_name = "Oran Class"
+            pride_of_the_fleet = yes
+          }
+        }
+      }
+
+      ship = {
+        name = "Marauder 1"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ALG
+            version_name = "Berber Class"
+          }
+        }
+      }
+
+      ship = {
+        name = "Marauder 2"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ALG
+            version_name = "Berber Class"
+          }
+        }
+      }
+
+      ship = {
+        name = "Marauder 3"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ALG
+            version_name = "Berber Class"
+          }
+        }
+      }
+
+      ship = {
+        name = "Marauder 4"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ALG
+            version_name = "Berber Class"
+          }
+        }
+      }
+
+      ship = {
+        name = "Marauder 5"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ALG
+            version_name = "Berber Class"
+          }
+        }
+      }
+
+      ship = {
+        name = "Marauder 6"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ALG
+            version_name = "Berber Class"
           }
         }
       }
