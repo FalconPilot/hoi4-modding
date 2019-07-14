@@ -13,6 +13,11 @@ spriteTypes = {
   }
 
   SpriteType = {
+    name = "GFX_ALG_infantry_weapons2_medium"
+    texturefile = "gfx/interface/technologies/qua88mm.dds"
+  }
+
+  SpriteType = {
     name = "GFX_ALG_early_fighter_medium"
     texturefile = "gfx/interface/technologies/ufuq.dds"
   }
