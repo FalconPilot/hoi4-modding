@@ -94,7 +94,7 @@ focus_tree = {
 
   focus = {
     id = ALG_algerian_deterrence
-    icon = GFX_focus_generic_home_defense
+    icon = GFX_goal_generic_construct_military
     cost = 10
     x = 2
     y = 5
@@ -298,6 +298,20 @@ focus_tree = {
         bonus = 1
         uses = 1
         category = industry
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_rebuild_the_nation
+    icon = GFX_goal_generic_consumer_goods
+    cost = 5
+    x = 7
+    y = 1
+    completion_reward = {
+      add_timed_idea = {
+        idea = ALG_rebuilding_the_nation
+        days = 360
       }
     }
   }

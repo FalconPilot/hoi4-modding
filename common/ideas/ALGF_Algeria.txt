@@ -23,12 +23,25 @@ ideas = {
     ALG_organized_bureaucracy = {
       picture = idea_generic_flexible_foreign_policy
       allowed = {
-        original_tag = alg
+        original_tag = ALG
       }
       removal_cost = -1
       modifier = {
         political_power_factor = 0.1
         improve_relations_maintain_cost_factor = -0.5
+      }
+    }
+
+    ALG_rebuilding_the_nation = {
+      picture = idea_generic_political_support
+      allowed = {
+        original_tag = ALG
+      }
+      removal_cost = -1
+      modifier = {
+        stability_weekly = 0.005
+        consumer_goods_factor = -0.05
+        production_speed_buildings_factor = 0.05
       }
     }
 
