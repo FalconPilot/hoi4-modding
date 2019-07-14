@@ -21,7 +21,7 @@ ideas = {
     }
 
     ALG_organized_bureaucracy = {
-      picture = idea_generic_flexible_foreign_policy
+      picture = generic_flexible_foreign_policy
       allowed = {
         original_tag = ALG
       }
@@ -33,7 +33,7 @@ ideas = {
     }
 
     ALG_rebuilding_the_nation = {
-      picture = idea_generic_political_support
+      picture = man_five_year_plan_industry
       allowed = {
         original_tag = ALG
       }
