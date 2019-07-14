@@ -232,6 +232,17 @@ ideas = {
     }
   }
 
+  ALG_scientific_refugees = {
+    picture = generic_research_bonus
+    allowed = {
+      original_tag = ALG
+    }
+    removal_cost = -1
+    modifier = {
+      research_speed_factor = 0.05
+    }
+  }
+
   ### Political Staff ###
 
   political_advisor = {

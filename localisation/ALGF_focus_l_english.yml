@@ -46,6 +46,13 @@
   ALG_mainland_industrial_development_desc: "Before we take on tougher projects, we need to ensure the mainland has a sufficient level of production to let the country grow."
   ALG_algiers_school_of_science: "Algiers school of science"
   ALG_algiers_school_of_science_desc: "By financing the creation of a prestigious new school of science, we can greatly increase the amount of scholars and researchers in Algeria. This is a non-negligible step we must take."
+  ALG_expand_coastal_industry: "Expand coastal industry"
+  ALG_expand_coastal_industry_desc: "We need to boost quite heavily the industry of our urbanized coastal regions. A lot of projects will require a lot of factories and naval dockyards."
+  ALG_refuge_to_soviet_scientists: "Give refuge to soviet scientists"
+  ALG_refuge_to_soviet_scientists_desc: "The Soviet Union has seen quite its fair share of oppressive politics over the past years. Some people have actually fled the USSR to look for a better place to live in. Some of them are quite ingenious researchers and scientists. Perhaps we could manage to be a destination of choice for them... ?"
+  ALG_the_great_minds: "The great minds"
+  ALG_the_great_minds_desc: "Great projects require great minds. We shall look for the best of the best in Algeria to try and increase our pool of quality scientists. We cannot wait to see what wonderful discoveries lie ahead of us !"
+
   ALG_the_saharan_project: "The Saharan project"
   ALG_the_saharan_project_desc: "Ingenious methods of subterranean transportation systems and centralized industrial production could allow us to develop and expand on the Saharan area. Maybe we could even settle it further in the future ?"
   ALG_promote_saharan_immigration: "Promote Saharan immigration"

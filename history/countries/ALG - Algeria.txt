@@ -140,6 +140,11 @@ if = {
   }
 
   create_equipment_variant = {
+    name = "Algiers Class"
+    type = ship_hull_
+  }
+
+  create_equipment_variant = {
     name = "Camel Class"
     type = ship_hull_cruiser_1
     parent_version = 0
