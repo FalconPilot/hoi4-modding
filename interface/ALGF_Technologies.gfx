@@ -13,7 +13,7 @@ spriteTypes = {
   }
 
   SpriteType = {
-    name = "GFX_ALG_fighter_equipment_0_medium"
+    name = "GFX_ALG_early_fighter_medium"
     texturefile = "gfx/interface/technologies/ufuq.dds"
   }
 }
