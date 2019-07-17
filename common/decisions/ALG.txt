@@ -1,7 +1,10 @@
 ### Desert works ###
 african_desert_works = {
   prospect_for_oil_in_algerian_desert = {
-    allowed = { has_tech = excavation1 }
+    available = {
+      controls_state = 514
+      has_tech = excavation1
+    }
     icon = generic_construction
     available = {
       459 = {

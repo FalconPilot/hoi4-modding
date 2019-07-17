@@ -17,7 +17,7 @@
   ALG_light_tank_destroyer_equipment_1: "M201 Matarid"
   ALG_light_tank_destroyer_equipment_1_short: "M201"
   ALG_light_tank_aa_equipment_1: "M202 Iibra"
-    ALG_light_tank_aa_equipment_1_short: "M202"
+  ALG_light_tank_aa_equipment_1_short: "M202"
 
   ALG_EQUIPMENT_VERSION_1: "C.1A"
   ALG_EQUIPMENT_VERSION_2: "C.1B"
