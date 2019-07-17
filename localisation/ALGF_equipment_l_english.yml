@@ -14,6 +14,8 @@
   ALG_gw_tank_equipment_short: "FT-17"
   ALG_light_tank_equipment_1: "M200 Muharib"
   ALG_light_tank_equipment_1_short: "M200"
+  ALG_light_tank_destroyer_equipment_1: "M201 Matarid"
+  ALG_light_tank_destroyer_equipment_1_short: "M201"
 
   ALG_EQUIPMENT_VERSION_1: "C.1A"
   ALG_EQUIPMENT_VERSION_2: "C.1B"
