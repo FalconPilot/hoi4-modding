@@ -1,6 +1,6 @@
 ﻿l_english:
-  ALG_fighter_equipment_0: "Ufuq"
-  ALG_fighter_equipment_0_short: "Ufuq"
+  ALG_fighter_equipment_0: "Al'ufuq"
+  ALG_fighter_equipment_0_short: "Al'ufuq"
   ALG_fighter_equipment_1: "PX1 Batal"
   ALG_fighter_equipment_1_short: "PX1"
   ALG_fighter_equipment_2: "PX2 Thaelib Alsahra"
@@ -8,5 +8,7 @@
   ALG_fighter_equipment_3: "PX3 Alshaykh"
   ALG_fighter_equipment_3_short: "PX3"
 
-  ALG_cv_fighter_equipment_0: "Qarash"
-  ALG_cv_fighter_equipment_0_short: "Qarash"
+  ALG_cv_fighter_equipment_0: "Al'ufuqu Albaeid"
+  ALG_cv_fighter_equipment_0_short: "Al'ufuqu Albaeid"
+  ALG_cv_fighter_equipment_1: "PX1n Faras Albahr"
+  ALG_cv_fighter_equipment_1_short: "PX1n"
