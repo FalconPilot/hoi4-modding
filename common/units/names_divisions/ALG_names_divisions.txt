@@ -4,4 +4,5 @@
   can_use = { always = yes }
   division_types = { "infantry" }
   fallback_name = "T%d Muqatil Fidraliun"
+  ordered = {}
 }
