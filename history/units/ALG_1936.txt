@@ -80,7 +80,7 @@ units = {
   division = {
     name = "Algerian Royal Guard"
     location = 1145
-    division_template = "Federal Infantry Division"
+    division_template = "Federal Division"
     start_experience_factor = 0.4
     start_equipment_factor = 1.0
   }
@@ -88,7 +88,7 @@ units = {
   division = {
     name = "1st Federal Police Brigade"
     location = 1145
-    division_template = "Federal Police"
+    division_template = "Police Brigade"
     start_experience_factor = 0.1
     start_equipment_factor = 0.8
   }
@@ -96,7 +96,7 @@ units = {
   division = {
     name = "2nd Federal Police Brigade"
     location = 12051
-    division_template = "Federal Police"
+    division_template = "Police Brigade"
     start_experience_factor = 0.1
     start_equipment_factor = 0.8
   }
@@ -104,7 +104,7 @@ units = {
   division = {
     name = "3rd Federal Police Brigade"
     location = 7132
-    division_template = "Federal Police"
+    division_template = "Police Brigade"
     start_experience_factor = 0.1
     start_equipment_factor = 0.8
   }
