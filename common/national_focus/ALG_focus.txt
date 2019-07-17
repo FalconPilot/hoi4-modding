@@ -53,9 +53,31 @@ focus_tree = {
       focus = ALG_oppose_the_royalty
     }
     completion_reward = {
+      add_war_support = 0.15
+      add_popularity = {
+        ideology = fascism
+        popularity = 0.1
+      }
       add_popularity = {
         ideology = communism
         popularity = -0.1
+      }
+    }
+  }
+
+  focus = {
+    id = ALG_nationalist_propaganda
+    icon = GFX_goal_generic_propaganda
+    cost = 10
+    x = 0
+    y = 3
+    prerequisite = { focus = ALG_no_more_communism }
+    completion_reward = {
+      add_war_support = 0.1
+      add_political_power = 150
+      add_popularity = {
+        ideology = fascism
+        popularity = 0.15
       }
     }
   }

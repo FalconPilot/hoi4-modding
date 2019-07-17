@@ -263,6 +263,23 @@ ideas = {
       picture = generic_political_advisor_female_arab
       traits = { silent_workhorse }
     }
+
+    mustafa_azzam = {
+      allowed = {
+        original_tag = ALG
+      }
+      available = { has_completed_focus = ALG_nationalist_propaganda }
+      picture = generic_political_advisor_africa_1
+      traits = { fascist_demagogue }
+    }
+
+    aziz_othman = {
+      allowed = {
+        original_tag = ALG
+      }
+      available = { has_completed_focus = ALG_socialist_propaganda }
+      picture = generic_political_advisor_india_2
+    }
   }
 
   ### Technology ###
