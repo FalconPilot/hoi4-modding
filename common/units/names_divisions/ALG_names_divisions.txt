@@ -1,8 +1,8 @@
 ﻿ALG_INF_01 = {
-  name = "Infantry Division"
+  name = "Infantry Divisions"
   for_countries = { ALG }
   can_use = { always = yes }
   division_types = { "infantry" }
-  fallback_name = "T%d Muqatil Fidraliun"
+  fallback_name = "T.%d Muqatil Fidraliun"
   ordered = {}
 }
