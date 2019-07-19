@@ -63,12 +63,12 @@ spriteTypes = {
   ### Algerian heavy tanks ###
 
   SpriteType = {
-    name = "GFX_ALG_basic_light_tank_medium"
+    name = "GFX_ALG_basic_heavy_tank_medium"
     texturefile = "gfx/interface/technologies/bt-turad.dds"
   }
 
   SpriteType = {
-    name = "GFX_ALG_basic_light_td_medium"
+    name = "GFX_ALG_basic_heavy_td_medium"
     texturefile = "gfx/interface/technologies/bt-altarradalthaqil.dds"
   }
 }
