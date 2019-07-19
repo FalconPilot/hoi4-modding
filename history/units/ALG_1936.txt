@@ -147,7 +147,7 @@ units = {
 
   division = {
     name = "Royal Tank Brigade"
-    location = 1145
+    location = 12760
     division_template = "Recon Tank Brigade"
     start_experience_Factor = 0.3
     start_equipment_factor = 1.0
