@@ -23,6 +23,11 @@
   ALG_light_tank_equipment_2: "M300 Faris"
   ALG_light_tank_equipment_2_short: "M300"
 
+  ALG_heavy_tank_equipment_1: "BT Turad"
+  ALG_heavy_tank_equipment_1_short: "Turad"
+  ALG_heavy_tank_destroyer_equipment_1: "BT Altarrad Althaqil"
+  ALG_heavy_tank_destroyer_equipment_1_short: "BT-AA"
+
   ALG_EQUIPMENT_VERSION_1: "C.1A"
   ALG_EQUIPMENT_VERSION_2: "C.1B"
   ALG_EQUIPMENT_VERSION_3: "C.2A"
