@@ -28,6 +28,8 @@
   ALG_light_tank_equipment_2: "M300 Faris"
   ALG_light_tank_equipment_2_short: "M300"
   ALG_light_tank_equipment_2_desc: "While the M200 chassis met some success on the battlefield, it also was extremely light and ultimately lacked firepower. To avoid sacrificing mobility, a slightly bigger chassis with a much better engine was designed : the M300 Faris. Sporting a 37mm main cannon and a roof-mounted 10mm machinegun, this tank promises way better performances than its predecessor."
+  ALG_light_tank_equipment_3: "M400 Kashaf"
+  ALG_light_tank_equipment_3_short: "M400"
 
   ALG_heavy_tank_equipment_1: "BT Turad"
   ALG_heavy_tank_equipment_1_short: "Turad"
@@ -35,6 +37,8 @@
   ALG_heavy_tank_destroyer_equipment_1: "BT Altarrad Althaqil"
   ALG_heavy_tank_destroyer_equipment_1_short: "BT-AA"
   ALG_heavy_tank_destroyer_equipment_1_desc: "This variant of the Turad trades the turret, its 45mm main gun and one of its 10mm machinegun for a massive and frightening 75mm cannon fixed on the hull. Its firepower is sufficient to pierce pretty much any armored target from its time, but it also ends up being an extremely specialized and expensive tank."
+  ALG_heavy_tank_equipment_2: "DHM Krahia"
+  ALG_heavy_tank_equipment_2_short: "Krahia"
 
   ALG_EQUIPMENT_VERSION_1: "C.1A"
   ALG_EQUIPMENT_VERSION_2: "C.1B"

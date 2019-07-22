@@ -60,6 +60,11 @@ spriteTypes = {
     texturefile = "gfx/interface/technologies/m300faris.dds"
   }
 
+  SpriteType = {
+    name = "GFX_ALG_advanced_light_tank_medium"
+    texturefile = "gfx/interface/technologies/m400kashaf.dds"
+  }
+
   ### Algerian heavy tanks ###
 
   SpriteType = {
@@ -70,5 +75,10 @@ spriteTypes = {
   SpriteType = {
     name = "GFX_ALG_basic_heavy_td_medium"
     texturefile = "gfx/interface/technologies/bt-altarradalthaqil.dds"
+  }
+
+  SpriteType = {
+    name = "GFX_ALG_improved_heavy_tank_medium"
+    texturefile = "gfx/interface/technologies/dhm_krahia.dds"
   }
 }
