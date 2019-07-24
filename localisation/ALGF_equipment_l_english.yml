@@ -9,6 +9,7 @@
   ALG_infantry_equipment_2_short: "Qua 8.5mm"
   ALG_infantry_equipment_3: "AKN42"
   ALG_infantry_equipment_3_short: "AKN42"
+  ALG_infantry_equipment_3_desc: "Modern warfare requires modern equipment, and thus the AKN42 was created in order to bring an intermediate, universal weapon that could perform in close, medium and eventually long-range encounters through refitting to reduce complexity and maximize efficiency."
 
   ALG_gw_tank_equipment: "Renault FT-17"
   ALG_gw_tank_equipment_short: "FT-17"
@@ -25,17 +26,26 @@
   ALG_light_tank_equipment_3: "M400 Kashaf"
   ALG_light_tank_equipment_3_short: "Kashaf"
 
-  ALG_medium_tank_equipment_1: "BT Alqadi"
+  ALG_medium_tank_equipment_1: "DQ Alqadi"
   ALG_medium_tank_equipment_1_short: "Alqadi"
+  ALG_medium_tank_equipment_2: "DHM Alharis"
+  ALG_medium_tank_equipment_2_short: "Alharis"
+  ALG_medium_tank_equipment_3: "DHM Amyr"
+  ALG_medium_tank_equipment_3_short: "Amyr"
 
-  ALG_heavy_tank_equipment_1: "BT Turad"
+  ALG_heavy_tank_equipment_1: "DQ Turad"
   ALG_heavy_tank_equipment_1_short: "Turad"
   ALG_heavy_tank_equipment_1_desc: "The french B1 tank was one of the sturdiest of its time, and so the Turad was developed to try and steal that title. Its 45mm cannon can prove devastating against enemy armored targets, and its thick armor makes it resistant to most beatings. The tradeoff, however, comes in a very high fuel consumption and a very slow apparel, even slower than a horse."
-  ALG_heavy_tank_destroyer_equipment_1: "BT Altarrad Althaqil"
-  ALG_heavy_tank_destroyer_equipment_1_short: "BT A.A."
+  ALG_heavy_tank_destroyer_equipment_1: "DQ Altarrad Althaqil"
+  ALG_heavy_tank_destroyer_equipment_1_short: "DQ A.A."
   ALG_heavy_tank_destroyer_equipment_1_desc: "This variant of the Turad trades the turret, its 45mm main gun and one of its 10mm machinegun for a massive and frightening 75mm cannon fixed on the hull. Its firepower is sufficient to pierce pretty much any armored target from its time, but it also ends up being an extremely specialized and expensive tank."
   ALG_heavy_tank_equipment_2: "DHM Krahia"
   ALG_heavy_tank_equipment_2_short: "Krahia"
+  ALG_heavy_tank_equipment_3: "DHM Malik"
+  ALG_heavy_tank_equipment_3_short: "Malik"
+
+  ALG_modern_tank_equipment_1: "DHM Muharar"
+  ALG_modern_tank_equipment_1_short: "Muharar"
 
   ALG_EQUIPMENT_VERSION_1: "C.1A"
   ALG_EQUIPMENT_VERSION_2: "C.1B"
